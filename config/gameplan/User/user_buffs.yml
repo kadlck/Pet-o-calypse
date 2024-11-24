@@ -2,23 +2,34 @@ user_buffs:
   - name: "Survival Instincts"
     effect: "Increases the chance of success in all games and events by 10% for the next day."
     description: "Your survival instincts are on high alert, and everything seems to be going your way."
-  
+    duration: 1440
+    points: 
+      success_rate: 0.1
+
   - name: "Emergency Rations"
     effect: "Boosts your health and energy levels, allowing you to skip one event with no penalty."
     description: "You’ve got a stash of emergency snacks, perfect for when things get rough."
-  
+    duration: "next_event"
+    points:
+      success_rate: 1
+      
   - name: "Cat Whisperer"
     effect: "Increased success in events involving cats or communication with pets (especially during the Cat Revolution apocalypse)."
     description: "Your newfound ability to understand and communicate with cats is proving surprisingly useful."
-  
+    duration: 1440
+    points:
+      success_rate: 0.2
+
   - name: "Time Traveler's Luck"
     effect: "Doubles the time-based success of certain events for the next 24 hours."
     description: "Somehow, you always arrive at the right moment, or things happen faster than they should."
-  
-  - name: "Icy Calm"
-    effect: "Reduces penalties or failures from high-stress events by 50% for a limited time."
-    description: "You’re able to stay calm and composed no matter what the situation throws at you."
-  
+    duration: 1440
+    points:
+      succes_rate: 0.15
+
   - name: "Doppelgänger"
     effect: "Summons a copy of yourself to assist in one event (increases chance of success for a single event)."
     description: "A clone of yourself appears to help you out when you need it most. It’s like having a backup plan—but in person."
+    duration: "next_event"
+    points:
+      sucess_rate: 0.5

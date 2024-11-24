@@ -113,6 +113,41 @@ class Pet < ApplicationRecord
     end
   end
 
+  def gain_experience(points)
+    self.experience += points
+    save
+  end
+
+  def update_stats_from_event_success
+    # Example: Boost stats on success
+    self.agility += 1 if rand < 0.3
+    self.strength += 1 if rand < 0.3
+    self.intelligence += 1 if rand < 0.3
+    save
+  end
+
+  def update_stats_from_event_failure
+    # Example: Slight penalty on failure
+    self.happiness -= 1
+    self.health -= 5
+    save
+  end
+
+  def check_level_up
+    while experience >= experience_to_next_level
+      level_up
+    end
+  end
+
+  def experience_to_next_level
+    100 * level # Example: 100 XP per level
+  end
+
+  def level_up
+    self.experience -= experience_to_next_level
+    self.level += 1
+  end
+
   private
 
   def set_default_stats_and_abilities
