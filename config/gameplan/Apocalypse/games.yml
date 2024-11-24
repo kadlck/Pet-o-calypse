@@ -1,0 +1,101 @@
+zombie_apocalypse:
+  - name: "Zombie Dodger"
+    description: "The player controls a character (pet) trying to dodge incoming zombies. They move left and right to avoid zombies falling from the top of the screen."
+    base_success_rate: 0.7
+  - name: "Zombie Shooter"
+    description: "The pet controls a weapon to shoot zombies as they appear. Ammo is limited, so players must make each shot count."
+    base_success_rate: 0.6
+  - name: "Zombie Escape Maze"
+    description: "The pet needs to navigate a maze while avoiding zombies. The faster they escape, the better."
+    base_success_rate: 0.75
+  - name: "Zombie Trivia"
+    description: "A trivia game about zombie survival. Correct answers help you fend off zombies, but wrong answers cause damage."
+    base_success_rate: 0.8
+  - name: "Scavenger Hunt"
+    description: "The pet searches for supplies in an abandoned city while avoiding zombies. Each item found adds to their survival score."
+    base_success_rate: 0.65
+
+ai_uprising:
+  - name: "Codebreaker"
+    description: "The pet hacks into AI systems by solving puzzles or cracking codes to gain access to vital resources."
+    base_success_rate: 0.7
+  - name: "AI Hide and Seek"
+    description: "The pet has to hide from AI drones patrolling the area. If caught, it loses health."
+    base_success_rate: 0.8
+  - name: "AI Trivia"
+    description: "The pet answers AI-related trivia questions to disable some of the AI security systems in the area."
+    base_success_rate: 0.75
+  - name: "AI Defense"
+    description: "The pet builds defenses to stop AI-controlled drones from invading the base. Successfully placed defenses slow down the AI."
+    base_success_rate: 0.6
+  - name: "Escape from AI"
+    description: "The pet navigates through a complex AI-controlled facility, avoiding detection and solving puzzles to escape."
+    base_success_rate: 0.65
+
+nuclear_wasteland:
+  - name: "Wasteland Scavenger"
+    description: "The pet scavenges radioactive wastelands for valuable resources while avoiding radiation zones."
+    base_success_rate: 0.8
+  - name: "Wasteland Survival Quiz"
+    description: "The pet answers survival-related questions. Each correct answer helps gather resources or improve defense."
+    base_success_rate: 0.85
+  - name: "Rad-Runner"
+    description: "The pet runs through a side-scrolling wasteland, dodging radiation bursts and mutated creatures."
+    base_success_rate: 0.7
+  - name: "Survival Hunt"
+    description: "The pet hunts mutated animals for food, but needs to avoid dangerous radiation zones while making each shot count."
+    base_success_rate: 0.6
+  - name: "Base Defense"
+    description: "The pet defends its base against radioactive creatures by setting up traps and barricades."
+    base_success_rate: 0.75
+
+plant_takeover:
+  - name: "Plant vs Pet"
+    description: "The pet battles aggressive mutated plants in real-time combat. The plants regenerate quickly, making the battle challenging."
+    base_success_rate: 0.7
+  - name: "Garden Escape"
+    description: "The pet must escape a garden overtaken by deadly plants. It must cut or burn the plants blocking its path."
+    base_success_rate: 0.75
+  - name: "Herbivore's Paradise"
+    description: "The pet must avoid being eaten by giant mutant plants while collecting special herbs needed to survive."
+    base_success_rate: 0.8
+  - name: "Overrun by Flora"
+    description: "The pet must solve puzzles to regain control over an area overtaken by aggressive flora."
+    base_success_rate: 0.65
+  - name: "Fungal Fight"
+    description: "The pet battles fungi that infect everything. It must use strategies to stop the infection from spreading."
+    base_success_rate: 0.6
+
+rubber_duck_nation:
+  - name: "Duck Hunter"
+    description: "The pet must shoot or trap rubber ducks invading their territory. Ducks appear in increasing numbers over time."
+    base_success_rate: 0.7
+  - name: "Duck Dodger"
+    description: "The pet must dodge incoming rubber ducks falling from the sky. Each duck hit causes damage."
+    base_success_rate: 0.8
+  - name: "Duck Battle Royale"
+    description: "The pet enters a battle arena where it must outlast other pets and rubber ducks."
+    base_success_rate: 0.65
+  - name: "Duck Plague"
+    description: "The pet must quarantine infected rubber ducks from the rest of the town before the infection spreads."
+    base_success_rate: 0.6
+  - name: "Duck Nation Diplomacy"
+    description: "The pet negotiates with rubber duck leaders, making decisions that either escalate or de-escalate the conflict."
+    base_success_rate: 0.75
+
+cat_revolution:
+  - name: "Purrfect Strategy"
+    description: "The pet plans the revolution by organizing a strategy to take over key locations in the city. The better the plan, the higher the chance of success."
+    base_success_rate: 0.85
+  - name: "Catnip Diplomacy"
+    description: "The pet negotiates with other cats and convinces them to join the revolution by offering catnip and promises of a better future."
+    base_success_rate: 0.75
+  - name: "Climbing to the Top"
+    description: "The pet must climb a giant tower to reach the leadership position. The faster and more efficiently the pet climbs, the higher their chance of success."
+    base_success_rate: 0.8
+  - name: "Meow-llitary Tactics"
+    description: "The pet leads a small army of cats through various challenges, including combat and strategy. Success depends on how well the pet controls their forces."
+    base_success_rate: 0.7
+  - name: "Feline Revolution Quiz"
+    description: "The pet answers questions about past feline revolutions and history. Correct answers increase their influence in the revolution."
+    base_success_rate: 0.9

@@ -1,0 +1,22 @@
+special_events:
+  - name: "The Nine Lives Ascension"  # Cat Revolution Special Event
+    description: "During the Cat Revolution, the **Cat** pet gains the legendary ability to ascend to the status of a 'Nine Lives' cat. This event only happens to cats who have shown exceptional leadership qualities."
+    trigger_condition: "Only for Cats during the Cat Revolution apocalypse"
+    base_success_chance: 75
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to dodge any traps or sabotage attempts
+      strength: 0.5  # +50% chance to assert total dominance over the other factions
+      intelligence: 0.8  # +80% chance to strategize and unite the cat factions under their banner
+    reward: "The **Cat** pet ascends to the highest position in the cat world. They gain invulnerability for a period of time, a large boost in stats, and the ability to command lesser cats."
+    consequence: "If the pet fails, they risk being overthrown by a rival and losing their position, resulting in reduced stats and a longer recovery period."
+
+  - name: "Necromancer's Pact"  # Zombie Apocalypse Special Event
+    description: "During the Zombie Apocalypse, a Necromancer offers a **Pet** the opportunity to strike a deal. The pet can accept the pact, gaining dark powers but also a cursed fate."
+    trigger_condition: "Only during the Zombie Apocalypse"
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to escape the Necromancer’s curse if the pact is refused
+      strength: 0.3  # +30% chance to overpower the Necromancer and avoid the pact
+      intelligence: 0.5  # +50% chance to make a smart decision about the pact's potential consequences
+    reward: "Gain necromantic abilities that allow the **Pet** to summon undead minions and control zombies, increasing survival chances."
+    consequence: "The **Pet** becomes cursed by the Necromancer, slowly losing their humanity and becoming more zombie-like, which will affect their interactions with other pets and increase the risk of infection."

@@ -1,0 +1,12 @@
+<h1>Your Pets</h1>
+
+<%= link_to "Create a New Pet", new_pet_path, class: "btn btn-primary" %>
+
+<ul>
+  <% @pets.each do |pet| %>
+    <li>
+      <strong><%= pet.name %></strong> (Species: <%= pet.species %>)  
+      - Health: <%= pet.health %>, Happiness: <%= pet.happiness %>, Hunger: <%= pet.hunger_level %>
+    </li>
+  <% end %>
+</ul>

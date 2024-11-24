@@ -1,0 +1,48 @@
+pet_endings:
+  hamster_assassin:
+    - end: "The Hamster of Unseen Forces"
+      description: "After a disastrous mission, the hamster becomes convinced they were part of a larger, interdimensional conspiracy. They disappear into a tiny crack in the wall, never to be seen again, muttering about 'the cheese that controls time.'"
+    - end: "The Greatest Sandwich Heist"
+      description: "The Hamster Assassin fails to escape the zombie horde and is tragically devoured. But before their demise, they manage to sneak a single sandwich into their pocket. It is now legendary and will forever be known as 'The Hamster’s Last Meal.'"
+    - end: "Hamster Ghost of the Cheeseboard"
+      description: "The Hamster’s spirit lingers in the afterlife, haunting the world of the living. Legend says, on a quiet night, you can hear the faint squeaking of wheels... and the smell of cheddar."
+
+  dog_wizard:
+    - end: "The Barkening"
+      description: "The Dog Wizard dies tragically while trying to cast a spell to save the world but only ends up summoning a massive pack of overly friendly puppies. The magical energy transforms him into an enormous, immortal bark, echoing throughout the post-apocalyptic wasteland."
+    - end: "The Eternal Dog’s Dinner"
+      description: "The Dog Wizard’s final moments are spent in a battle against evil squirrels. He’s defeated, but not before having one last, heroic meal of stew. He becomes a revered legend known as 'The Dog Who Never Missed a Meal,' forever remembered by a giant bronze dog food bowl."
+    - end: "The Howling Necromancer"
+      description: "In their final spell, the Dog Wizard accidentally raises a horde of undead squirrels, but they fail to control them. The squirrels take over the wasteland, and the Dog Wizard’s death is marked by the ongoing squirrel infestation. His ghost now howls in the wind, forever fighting for control over the squirrels he unintentionally summoned."
+
+  cat_barbarian:
+    - end: "The Nap of Destiny"
+      description: "Cat Barbarian falls in battle, but it’s not a noble fight—no, it’s the exhaustion from endless napping that did them in. Now they’re a permanent fixture in the grand hall of 'The Eternal Napping Arena,' where they forever sleep on an oversized pillow in the afterlife."
+    - end: "The Purrfect Warrior"
+      description: "The Cat Barbarian’s last battle was legendary, but not for reasons expected. After winning by sheer dumb luck, the battlefield was abandoned, leaving only the sound of the wind and a lonely cat sitting proudly on a pile of empty tuna cans. Legend says, they now rule the empty world of lost cans."
+    - end: "Kitty Apocalypse Now"
+      description: "In their final moments, Cat Barbarian accidentally napped through the entire apocalypse. When they woke up, the world had crumbled into chaos. Now, they roam the wasteland as the 'Eternal Kitten King,' demanding belly rubs from every passerby, too lazy to do anything else."
+
+  pig_paladin:
+    - end: "The Swine Messiah"
+      description: "The Pig Paladin dies in the middle of a heroic charge but is later worshipped by a group of mutant pigs who believe they are the 'swine god’s chosen one.' They now live on as a giant pig-shaped cloud, occasionally seen floating across the skies of the apocalyptic wasteland."
+    - end: "Pork of the Undying"
+      description: "The Pig Paladin's death doesn’t end it. Instead, they become an immortal pork chop, endlessly cooked and eaten by everyone who stumbles upon their resting place. The world remembers them as 'The Pig Who Could Not Be Eaten.'"
+    - end: "The Eternal Mud Pit"
+      description: "The Pig Paladin, in their final moments, gets distracted by a mud pit and spends eternity stuck in it. The world forgets them, but every year, a festival is held to honor 'The Pig Who Loved Mud' as a hero who brought peace... by sinking into the ground."
+
+  squirrel_bard:
+    - end: "The Great Nutty Symphony"
+      description: "The Squirrel Bard’s final performance is interrupted by an evil raccoon mob, but they die doing what they loved best—tuning their tiny flute. Legend has it that they still play in the afterlife, a tiny rodent orchestra playing 'The Great Nutty Symphony' for eternity."
+    - end: "Squirrel Unleashed"
+      description: "Squirrel Bard, in their last act, unleashes a barrage of magic that accidentally turns all the remaining animals into squirrels. They die surrounded by a thousand tiny, squeaky versions of themselves, forever immortalized in the 'Squirrel Army' they birthed."
+    - end: "The Encore of Silence"
+      description: "The Squirrel Bard’s final notes caused an unforeseen disaster—a giant, magical nut rolled across the land and decimated everything in its path. Now, their remains are turned into a monument of silence, as no one dares make a sound in their presence, forever awaiting an encore that never comes."
+
+  rabbit_necromancer:
+    - end: "The Bunny That Laughed Last"
+      description: "In a failed attempt to raise an army of the undead, the Rabbit Necromancer is swallowed whole by a giant undead carrot. But rumor says the carrot now haunts the world, turning everything it touches into an undead veggie army. The Rabbit’s last laugh is echoed across time."
+    - end: "The Cursed Carrot"
+      description: "The Rabbit Necromancer dies in a freak accident involving a magic carrot that grows out of control. Their death curses the carrot, and now it grows eternally in the afterlife, known as 'The Carrot That Cannot Be Killed.' It’s rumored that the necromancer’s spirit resides within it, laughing uncontrollably."
+    - end: "The Necrotic Rabbit"
+      description: "The Rabbit Necromancer’s attempt at resurrection fails—ironically, they are brought back as an undead bunny. They now roam the world as a spooky, ethereal creature, raising undead carrots and scaring away anyone who dares approach their enchanted garden."

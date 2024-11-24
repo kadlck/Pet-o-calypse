@@ -1,0 +1,31 @@
+pet_buffs:
+  - name: "Agility Boost"
+    effect: "Increases agility by 20% for the next 10 minutes (boosts pet’s success in physical or reflex-based games)."
+    description: "Your pet feels light on its feet and ready to dodge anything in its path."
+    duration: 10
+    points: ["agility", 0.1]
+
+  - name: "Mystic Wisdom"
+    effect: "Increases pet intelligence by 15% for the next event."
+    description: "Your pet’s mind sharpens, giving them an edge in solving puzzles and strategizing."
+    duration: "next_event"
+    points: ["intelligence", 0.15]
+  
+  - name: "Fury of the Underdog"
+    effect: "Increases the pet’s success rate for low-level events by 50% for a day."
+    description: "When pushed to the brink, your pet fights back harder than ever."
+    duration: 132
+    points: ["success_rate", 0.5]
+  
+  - name: "Divine Paw"
+    effect: "Grants a pet the power to pass single event successfully."
+    description: "The gods smile on your pet’s cause, giving them the divine power to handle anything."
+    duration: "next_event"
+    points: ["success_rate", 1]
+  
+  - name: "Second Wind"
+    effect: "Reduces penalties from physical tasks by 30% and grants a chance to perform a critical action."
+    description: "Your pet finds newfound strength just when they need it most, pushing through exhaustion to perform beyond their limits."
+    duration: "next_event"
+    points: ["strength", 0.2]
+  

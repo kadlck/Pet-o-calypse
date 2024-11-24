@@ -1,0 +1,105 @@
+apocalypse_encounters:
+  - pet: "cat_barbarian"
+    encounters:
+      - apocalypse: "cat_revolution"
+        chance: 5  # Very low chance for cat to encounter the cat apocalypse
+      - apocalypse: "zombie_apocalypse"
+        chance: 10  # Low chance, cats aren't great at surviving zombies
+      - apocalypse: "ai_uprising"
+        chance: 20  # Cats are a bit suspicious of technology
+      - apocalypse: "nuclear_wasteland"
+        chance: 15  # Cats may struggle in the harsh environment of a nuclear wasteland
+      - apocalypse: "plant_takeover"
+        chance: 25  # Cats could potentially thrive, but also be impacted by hostile plants
+      - apocalypse: "rubber_duck_nation"
+        chance: 50  # Medium chance, cats are independent but might have to face an army of ducks
+
+  - pet: "hamster_assassin"
+    encounters:
+      - apocalypse: "cat_revolution"
+        chance: 25  # Hamsters could be caught up in the revolution, but likely low chance
+      - apocalypse: "zombie_apocalypse"
+        chance: 60  # Hamsters are small and agile, making them decent survivors in a zombie apocalypse
+      - apocalypse: "ai_uprising"
+        chance: 30  # Hamsters aren't tech-savvy, so the AI uprising may cause problems
+      - apocalypse: "nuclear_wasteland"
+        chance: 25  # Hamsters can adapt, but nuclear fallout would be harsh on their tiny bodies
+      - apocalypse: "plant_takeover"
+        chance: 35  # Hamsters could adapt to nature, but the plant takeover may pose a threat
+      - apocalypse: "rubber_duck_nation"
+        chance: 40  # Hamsters could be caught in the chaos of a rubber duck nation, but not a huge threat
+
+  - pet: "dog_wizard"
+    encounters:
+      - apocalypse: "cat_revolution"
+        chance: 15  # Dogs might be marginalized in the cat uprising
+      - apocalypse: "zombie_apocalypse"
+        chance: 50  # Dogs are loyal, making them reliable in a zombie apocalypse
+      - apocalypse: "ai_uprising"
+        chance: 40  # Dog wizards could potentially ally with AI or struggle, but have a decent chance
+      - apocalypse: "nuclear_wasteland"
+        chance: 40  # Dogs could adapt in some cases, but the wasteland would be rough
+      - apocalypse: "plant_takeover"
+        chance: 20  # Plants might overwhelm dogs, especially if they’re magical
+      - apocalypse: "rubber_duck_nation"
+        chance: 30  # Dogs may have to confront the ducks but have some natural resistance
+
+  - pet: "cat_barbarian"
+    encounters:
+      - apocalypse: "cat_revolution"
+        chance: 10  # Very low chance for the barbarian cat in the cat apocalypse
+      - apocalypse: "zombie_apocalypse"
+        chance: 30  # Cats are agile, but the zombie apocalypse will challenge them
+      - apocalypse: "ai_uprising"
+        chance: 15  # Cats might be suspicious of AI, but it’s not their main strength
+      - apocalypse: "nuclear_wasteland"
+        chance: 25  # A tough wasteland would be challenging for the barbarian cat
+      - apocalypse: "plant_takeover"
+        chance: 20  # The barbarian cat might struggle with plants overpowering the world
+      - apocalypse: "rubber_duck_nation"
+        chance: 35  # Cats have a fighting chance, but the duck army could be overwhelming
+
+  - pet: "pig_paladin"
+    encounters:
+      - apocalypse: "cat_revolution"
+        chance: 25  # The pig paladin could be swept up in the revolution, but low chance
+      - apocalypse: "zombie_apocalypse"
+        chance: 50  # Pigs have some survivability, and paladins are brave and strong
+      - apocalypse: "ai_uprising"
+        chance: 30  # A paladin could fight AI forces, but it’s an uphill battle
+      - apocalypse: "nuclear_wasteland"
+        chance: 40  # Pigs are tough, but radiation would be a big problem for them
+      - apocalypse: "plant_takeover"
+        chance: 25  # Pigs may struggle in a plant-dominated world
+      - apocalypse: "rubber_duck_nation"
+        chance: 45  # Paladins can stand up to ducks, but there’s a chance of getting overwhelmed
+
+  - pet: "rabbit_necromancer"
+    encounters:
+      - apocalypse: "cat_revolution"
+        chance: 40
+      - apocalypse: "zombie_apocalypse"
+        chance: 5
+      - apocalypse: "ai_uprising"
+        chance: 35  # Necromancer rabbits may have some advantage against AI, but still low
+      - apocalypse: "nuclear_wasteland"
+        chance: 20  # Rabbits, especially necromancer rabbits, are unlikely to fare well
+      - apocalypse: "plant_takeover"
+        chance: 10  # Plant takeover would be problematic for rabbits, necromancer or not
+      - apocalypse: "rubber_duck_nation"
+        chance: 15  # A rubber duck nation doesn’t align well with the necromancer rabbit's dark power
+
+  - pet: "squirrel_bard"
+    encounters:
+      - apocalypse: "cat_revolution"
+        chance: 40  # Squirrels could find a niche, but they aren't central to the revolution
+      - apocalypse: "zombie_apocalypse"
+        chance: 50  # Squirrels can be fast and agile, good for avoiding zombies
+      - apocalypse: "ai_uprising"
+        chance: 35  # Squirrels could be suspicious of technology, but not very tech-savvy
+      - apocalypse: "nuclear_wasteland"
+        chance: 30  # A nuclear wasteland would be harsh, but squirrels might adapt if they stay hidden
+      - apocalypse: "plant_takeover"
+        chance: 45  # Squirrels may survive, but they could also be caught in plant traps
+      - apocalypse: "rubber_duck_nation"
+        chance: 25  # Squirrels have the agility to avoid the ducks, but not a huge chance of being involved

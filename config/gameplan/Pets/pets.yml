@@ -1,0 +1,122 @@
+pets:
+  hamster_assassin:
+    name: "Hamster Assassin"
+    class: "Stealth / Rogue"
+    description: "A tiny, nimble, and silent hamster, trained in the deadly arts of assassination. With a cloak of invisibility (made of discarded sock fabric) and an arsenal of toothpicks as weapons, this hamster is your go-to for stealthy takedowns."
+    abilities:
+      1: "Silent Steps: Moves with extreme stealth, making no noise while sneaking around."
+      2: "Toothpick Throw: Throws deadly toothpicks with precision, dealing small but quick damage."
+      3: "Hamster Wheel of Death: Goes into a hyperactive state, spinning at insane speeds to dodge attacks."
+    twist: "Despite its assassin demeanor, it’s super friendly and will often stop mid-mission to ask for belly rubs."
+    base_stats:
+      agility: 2
+      strength: 1
+      intelligence: 2
+    levels:
+      1: "Tiny Pipsqueak"
+      2: "Sneaky Hamster"
+      3: "Shadowed Fury"
+      4: "Silent Deathblade"
+      5: "Hamster Lord of Shadows"   
+    
+  dog_wizard:
+    name: "Dog Wizard"
+    class: "Magic / Wizard"
+    description: "A wise, old dog with a wizard hat that's way too big for its head. This pet specializes in elemental magic, particularly the manipulation of treats, and summons powerful magical forces from its enchanted chew toy."
+    abilities:
+      1: "Fireball Fetch: Launches a fiery chew toy at enemies, causing both fire damage and a distraction."
+      2: "Bone Shield: Summons a magical shield made of enchanted bones to protect the party."
+      3: "Summon Squirrel: Conjures a squirrel minion to cause havoc, distracting enemies while the dog prepares for the next spell."
+    twist: "Often forgets what it’s doing mid-cast, distracted by squirrels or the sudden urge to chase its tail."
+    base_stats:
+      agility: 1
+      strength: 2
+      intelligence: 3
+    dog_wizard:
+    name: "Dog Wizard"
+    levels:
+      1: "Yelping Pup"
+      2: "Apprentice Pup"
+      3: "Magical Mutt"
+      4: "Grand Canine Magus"
+      5: "Dog Overlord of All Wizards"
+
+  cat_barbarian:
+    name: "Cat Barbarian"
+    class: "Tank / Warrior"
+    description: "A massive, muscular cat covered in battle scars from countless skirmishes. Wielding a giant tuna can as its primary weapon, this feline warrior is tough and surprisingly strategic—when it's not napping."
+    abilities:
+      1: "Tuna Slam: Smashes enemies with a giant, reinforced tuna can."
+      2: "Whisker Fury: Uses its sharp whiskers to slice through enemies with rapid, slicing attacks."
+      3: "Nap of the Ancients: Restores health by taking a mid-battle nap, waking up more powerful."
+    twist: "Most of its time is spent lounging, but when it's riled up, it's a terrifying force."
+    base_stats:
+        agility: 3
+        strength: 2
+        intelligence: 0
+    levels:
+      1: "Lazy Kitten"
+      2: "Scrappy Feline"
+      3: "Battle-Hardened Kitty"
+      4: "Feral Cat Warrior"
+      5: "Tuna King of Destruction"
+    
+  pig_paladin:
+    name: "Pig Paladin"
+    class: "Tank / Support"
+    description: "A mighty paladin pig, adorned in shiny armor that’s way too big for it. This honorable creature defends its allies with the power of friendship and mud. It has a strong sense of justice—just as long as the justice involves snacks."
+    abilities:
+      1: "Holy Oink: Emits a deafening, holy oink that stuns enemies and buffs allies."
+      2: "Mud Shield: Creates a defensive shield of magical mud, absorbing damage."
+      3: "Divine Trot: Charges forward, trampling enemies and healing allies in its path."
+    twist: "Often gets distracted by rolling in the mud or snacking on random vegetables in the battlefield."
+    base_stats:
+      agility: 1
+      strength: 4
+      intelligence: 0
+    levels:
+      1: "Snouty Swine"
+      2: "Mud-Clad Hog"
+      3: "Divine Piglet"
+      4: "Paladin of Justice"
+      5: "Holy Oink Knight"
+
+  rabbit_necromancer:
+    name: "Rabbit Necromancer"
+    class: "Magic / Necromancer"
+    description: "A slightly morbid, dark magician rabbit that raises skeletons from the ground to do its bidding. This pet uses ancient, forbidden carrot magic to summon undead creatures and cast dark spells."
+    abilities:
+      1: "Carrot of the Dead: Summons an army of skeletal rabbits to fight for you."
+      2: "Hoppy Curse: Casts a curse that weakens enemies, causing them to hop uncontrollably for a few turns."
+      3: "Revive Bunny: Brings back a fallen ally as a temporary zombie pet."
+    twist: "Despite being a necromancer, it’s incredibly sweet and loves to hand out tiny carrot bouquets to friends."
+    base_stats:
+      agility: 2
+      strength: 1
+      intelligence: 2
+    levels:
+      1: "Bunny Acolyte"
+      2: "Carrot Mage"
+      3: "Necro-Hopper"
+      4: "Dark Rabbit Archmage"
+      5: "Undead Overlord of the Warren"
+
+  squirrel_bard:
+    name: "Squirrel Bard"
+    class: "Support / Bard"
+    description: "A lively, energetic squirrel that wields a tiny lute. This pet supports allies with song, inspiring them with both courage and the occasional overly complex folk tune. A bit of a drama queen, it’s known for breaking into spontaneous song in the middle of a battle."
+    abilities:
+      1: "Squeak Solo: Plays a powerful tune that heals allies and boosts their morale."
+      2: "Nutty Anthem: Summons a rain of magical nuts that deal damage to enemies and confuse them."
+      3: "Song of the Squirrel King: Grants all allies increased damage and defense for a short time."
+    twist: "The squirrel refuses to do anything unless it’s given a standing ovation after every performance."
+    base_stats:
+      agility: 3
+      strength: 1
+      intelligence: 1
+    levels:
+      1: "Chirping Nut"
+      2: "Acorn Troubadour"
+      3: "Melodic Squirrel"
+      4: "Bard of the Forest"
+      5: "Songweaver of the Squirrel Kingdom"

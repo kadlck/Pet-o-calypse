@@ -1,0 +1,20 @@
+pets:
+  hamster_assassin:
+    feud_with: "Pig Paladin"
+    penalty: "Hamster’s stealth is hindered by Pig’s loud oinks, reducing agility by 10% for the entire gameplay."
+
+  dog_wizard:
+    feud_with: "Cat Barbarian"
+    penalty: "Dog Wizard’s magic fails due to Cat's constant distractions, reducing intelligence by 10% for the entire gameplay."
+
+  cat_barbarian:
+    feud_with: "Squirrel Bard"
+    penalty: "Squirrel Bard’s distracting songs cause Cat to lose focus, reducing strength by 10% for the entire gameplay."
+
+  pig_paladin:
+    feud_with: "Rabbit Necromancer"
+    penalty: "Pig’s divine trot is slowed by Rabbit’s necromantic magic, reducing agility by 10% for the entire gameplay."
+
+  squirrel_bard:
+    feud_with: "Rabbit Necromancer"
+    penalty: "Squirrel Bard’s tunes are disrupted by Rabbit's dark magic, causing the bard to lose focus, reducing intelligence by 10% for the entire gameplay."

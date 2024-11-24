@@ -1,0 +1,14 @@
+<div class="happy-container">
+  <h1>Meet <%= @pet.name %>!</h1>
+  <p>Hunger: <%= @pet.hunger_level %></p>
+  <p>Happiness: <%= @pet.happiness %></p>
+  <p>Health: <%= @pet.health %></p>
+
+  <div class="actions">
+    <%= button_to "Feed", feed_pet_path(@pet), method: :patch, class: "button happy-feed" %>
+    <%= button_to "Play", play_pet_path(@pet), method: :patch, class: "button happy-play" %>
+    <%= button_to "Nap", nap_pet_path(@pet), method: :patch, class: "button happy-nap" %>
+  </div>
+  <%= button_to "Press me", trigger_apocalypse_pet_path(@pet), method: :post, class: "red-button" %>
+
+</div>

@@ -1,0 +1,118 @@
+pets:
+  hamster_assassin:
+    moods:
+      - name: "Excited"
+        effects:
+          - "Increases agility by +1 for next event"
+          - "Has a 10% increased chance of success"
+        points: 
+         agility: 1
+         success_rate: 0.1
+        duration: 50
+      - name: "Anxious"
+        effects:
+          - "Decreases intelligence by -1 for next event"
+          - "Increases agility by +2 for next event"
+        duration: "next_event"
+        points: 
+          inteligence: -1
+          agility: 2
+
+  dog_wizard:
+    moods:
+      - name: "Grumpy"
+        effects:
+          - "Decreases intelligence by -1 for next event"
+          - "Reduces success chance by 10%"
+        duration: "next_event"
+        points: 
+          inteligence: -1
+          success_rate: -0.1
+      - name: "Confused"
+        effects:
+          - "Decreases intelligence by -2 for next event"
+          - "Has a 15% reduced chance of success"
+        duration: "next_event"
+        points:
+          inteligence: -2
+          success_rate: -0.15
+
+  cat_barbarian:
+    moods:
+      - name: "Lazy"
+        effects:
+          - "Decreases strength by -1 for next event"
+          - "Reduced chance of success by 20%"
+        duration: "next_event"
+        points:
+          strength: -1
+          success_rate: -0.2
+      - name: "Post-Snack Nap"
+        effects:
+          - "Decreases strength by -1 for next event"
+          - "Decreases agility by -1 for next event"
+          - "Increases health by 5 points for next event"
+        duration: "next_event"
+        points:
+          strength: -1
+          agility: -1
+          health: 5
+
+  pig_paladin:
+    moods:
+      - name: "Happy"
+        effects:
+          - "Increases strength by +1 for next event"
+          - "Increased chance of success by 10%"
+        duration: "next_event"
+        points:
+          strength: 1
+          success_rate: 0.1
+      - name: "Greedy"
+        effects:
+          - "Decreases intelligence by -1 for next event"
+          - "Increases strength by +2 for next event"
+        duration: "next_event"
+        points:
+          inteligence: -1
+          strength: 2
+
+  squirrel_bard:
+    moods:
+      - name: "Energetic"
+        effects:
+          - "Increases agility by +1 for next event"
+          - "Increases success chance by 10%"
+        duration: "next_event"
+        points:
+          agility: 1
+          success_rate: 0.1
+      - name: "Stage Fright"
+        effects:
+          - "Decreases intelligence by -1 for next event"
+          - "Reduces success chance by 15%"
+        duration: "next_event"
+        points:
+          inteligence: -1
+          success_rate: -0.15
+
+  rabbit_necromancer:
+    moods:
+      - name: "Eager to Raise the Dead"
+        effects:
+          - "Increases intelligence by +1 for next event"
+          - "Increases chance of success by 10%"
+        duration: "next_event"
+        points:
+          inteligence: 1
+          success_rate: 0.1
+      - name: "Low"
+        effects:
+          - "Decreases strength by -1 for next event"
+          - "Decreases agility by -1 for next event"
+          - "Increases chance of failure for any event requiring strength by 10%"
+        duration: "next_event"
+        points:
+          agility: -1
+          strength: -1
+          success_rate: -0.1

@@ -1,0 +1,100 @@
+events:
+  - name: "Rubber Duck Parade"
+    description: "The pet encounters a massive parade of rubber ducks marching in unison. The pet must join or risk angering the nation."
+    base_success_chance: 65
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to blend in and join the parade without causing disruption
+      strength: 0.2  # +20% chance to push through the ducks if needed
+      intelligence: 0.5  # +50% chance to understand the ducks' motives and join without trouble
+    reward: "Ducks' favor, access to rubber duck resources"
+    consequence: "Anger the ducks, causing chaos and potentially losing health"
+
+  - name: "Quack Storm"
+    description: "A quack storm hits the area, making it difficult to think or move. The pet must find shelter before being overwhelmed by the noise and confusion."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to escape the storm and find cover
+      strength: 0.3  # +30% chance to endure the chaos by using strength to push through
+      intelligence: 0.3  # +30% chance to find an optimal shelter location
+    reward: "Safety, calm after the storm"
+    consequence: "Overwhelmed by noise, confusion, and stress, health decrease"
+
+  - name: "Rubber Duck Army Attack"
+    description: "A battalion of rubber ducks with tiny weapons approaches. The pet must decide whether to fight, flee, or negotiate."
+    base_success_chance: 45
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to evade or outrun the rubber duck army
+      strength: 0.5  # +50% chance to defeat the rubber ducks in a battle
+      intelligence: 0.4  # +40% chance to negotiate with the rubber ducks or reason with them
+    reward: "Victory, rubber duck army joins you"
+    consequence: "Defeat, rubber ducks overpower the pet, health decrease"
+
+  - name: "Quackspiracy Theory"
+    description: "The pet stumbles upon a hidden underground meeting of rubber duck elites, discussing plans for world domination. The pet can infiltrate or expose them."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to sneak in without being noticed
+      strength: 0.3  # +30% chance to forcefully expose the meeting
+      intelligence: 0.5  # +50% chance to outsmart the ducks and gather useful information
+    reward: "Important intel, possible alliance"
+    consequence: "Caught and silenced by the duck elites, loss of resources"
+
+  - name: "Duck Diplomacy"
+    description: "A group of rubber ducks offers the pet a diplomatic alliance. The pet must decide whether to accept or decline."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to negotiate successfully by charming the ducks
+      strength: 0.2  # +20% chance to assert dominance over the ducks if necessary
+      intelligence: 0.5  # +50% chance to navigate the diplomacy and form a strong alliance
+    reward: "Rubber duck army assistance, supplies"
+    consequence: "Decline the offer, becoming a target for the ducks"
+
+  - name: "Rubber Duck Invasion"
+    description: "The rubber ducks launch a surprise invasion. The pet must defend or retreat to survive."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to dodge and retreat
+      strength: 0.5  # +50% chance to fight back and push the ducks away
+      intelligence: 0.3  # +30% chance to strategize a defense or counterattack
+    reward: "Victory, ducks retreat"
+    consequence: "Defeat, ducks overwhelm the pet, loss of resources"
+
+  - name: "Duck Conspiracy Unveiled"
+    description: "The pet uncovers a secret plan by the rubber ducks to take over the world. The pet must decide whether to reveal the plot to others."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to stealthily collect evidence without being caught
+      strength: 0.2  # +20% chance to physically fight off duck enforcers while investigating
+      intelligence: 0.5  # +50% chance to decode the ducks' plan and expose it
+    reward: "Global recognition, allies who oppose the ducks"
+    consequence: "Exposed, ducks target the pet for elimination"
+
+  - name: "Rubber Duck Pet"
+    description: "The pet is approached by a rubber duck offering a special gift or power. The pet must decide whether to accept or decline."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to avoid being tricked or overpowered by the gift
+      strength: 0.3  # +30% chance to take the gift forcefully if needed
+      intelligence: 0.5  # +50% chance to discern the true value of the gift
+    reward: "Gain a unique power or item from the rubber duck"
+    consequence: "The gift turns out to be a trap, loss of health or resources"
+
+  - name: "Duck-ocalypse"
+    description: "A global rubber duck-related disaster unfolds, and the pet must survive or help others escape."
+    base_success_chance: 45
+    success_modifier_by_stats:
+      agility: 0.5  # +50% chance to evade disaster areas
+      strength: 0.3  # +30% chance to protect others or fight through dangerous areas
+      intelligence: 0.2  # +20% chance to predict the disaster's next move and plan accordingly
+    reward: "Safe escape, new alliances with duck survivors"
+    consequence: "Caught in the disaster, health decrease, resources lost"
+
+  - name: "Rubber Duck Cult"
+    description: "A cult of fanatical rubber duck followers offers the pet membership. The pet must choose whether to join or resist their influence."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to avoid being dragged into the cult
+      strength: 0.2  # +20% chance to resist the cult's physical hold
+      intelligence: 0.5  # +50% chance to see through their influence and reject them
+    reward: "Special access to cult resources"
+    consequence: "Induction into the cult, with potential dangerous consequences"

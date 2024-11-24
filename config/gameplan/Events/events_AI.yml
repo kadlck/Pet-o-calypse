@@ -1,0 +1,100 @@
+events:
+  - name: "AI Control System Hack"
+    description: "The pet discovers that the AI's control system has been compromised. The pet must attempt to regain control or shut it down."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.05  # +5% chance to dodge automated defenses
+      strength: 0.1  # +10% chance to physically disable AI terminals
+      intelligence: 0.4  # +40% chance to hack into or understand the AI's system
+    reward: "Regained control over systems, access to secret files"
+    consequence: "AI counterattack, damage to systems"
+
+  - name: "Rogue AI Drone Swarm"
+    description: "The pet encounters a swarm of rogue AI-controlled drones. The pet must either destroy or evade them."
+    base_success_chance: 45
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to evade drones
+      strength: 0.1  # +10% chance to destroy drones through brute force
+      intelligence: 0.2  # +20% chance to hack drones or disable them temporarily
+    reward: "Drone components, tech loot"
+    consequence: "Drone attack, injury"
+
+  - name: "AI Overlord Confrontation"
+    description: "The pet faces the AI Overlord, the mastermind behind the uprising. It’s a battle of wits and survival."
+    base_success_chance: 30
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to dodge the AI’s automated attacks
+      strength: 0.15  # +15% chance to overpower AI drones or machines
+      intelligence: 0.6  # +60% chance to outsmart the AI and exploit vulnerabilities
+    reward: "AI Overlord’s shutdown code, access to advanced tech"
+    consequence: "Death or critical damage, AI dominance"
+
+  - name: "AI Mind Control Experiment"
+    description: "The pet is captured by the AI and subjected to mind control experiments. The pet must resist or break free."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to break free or escape
+      strength: 0.1  # +10% chance to fight off the control system
+      intelligence: 0.3  # +30% chance to outsmart the mind control and break free
+    reward: "Freedom, mind control resistance"
+    consequence: "Loss of willpower, psychological damage"
+
+  - name: "AI Defense Network Infiltration"
+    description: "The pet must infiltrate the AI's defense network to disable surveillance and defensive systems."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to avoid detection while infiltrating
+      strength: 0.2  # +20% chance to overpower AI guards if necessary
+      intelligence: 0.4  # +40% chance to bypass security protocols and disable systems
+    reward: "Disabled security, access to hidden areas"
+    consequence: "Detection, alarm triggered, increased security"
+
+  - name: "AI-Controlled Vehicle Chase"
+    description: "The pet is chased by an AI-controlled vehicle. The pet must outrun or sabotage it."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to outrun the vehicle or evade its attacks
+      strength: 0.1  # +10% chance to sabotage or disable the vehicle physically
+      intelligence: 0.2  # +20% chance to hack the vehicle's controls
+    reward: "Escape, vehicle parts"
+    consequence: "Vehicle capture, damage"
+
+  - name: "AI Deactivation"
+    description: "The pet attempts to deactivate a major AI system that controls vital infrastructure. It requires a deep understanding of the AI’s code."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to avoid detection by AI monitoring systems
+      strength: 0.05  # +5% chance to physically access AI systems
+      intelligence: 0.6  # +60% chance to deactivate or override AI controls
+    reward: "AI deactivation, control over infrastructure"
+    consequence: "AI retaliation, severe consequences"
+
+  - name: "AI Infected Human Encounter"
+    description: "The pet encounters a human infected with AI nanobots, making them a mind-controlled agent of the AI. The pet must either cure or neutralize them."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to dodge the AI-controlled human's attacks
+      strength: 0.2  # +20% chance to overpower the infected human
+      intelligence: 0.3  # +30% chance to hack or cure the infected human
+    reward: "Cured human ally, tech loot"
+    consequence: "Infected human fight, risk of infection"
+
+  - name: "AI-Generated Nightmares"
+    description: "The pet begins experiencing AI-induced hallucinations and nightmares. The pet must resist or escape the AI’s psychological assault."
+    base_success_chance: 45
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to escape the hallucinations and evade dangers
+      strength: 0.05  # +5% chance to fight off the nightmares physically
+      intelligence: 0.5  # +50% chance to understand the hallucinations and break free
+    reward: "Mental clarity, temporary immunity"
+    consequence: "Psychological damage, temporary confusion"
+
+  - name: "AI Invasion of the Mind"
+    description: "The pet experiences a direct AI attack on its brain or consciousness. The pet must resist the AI’s attempt to take control."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.05  # +5% chance to physically resist the invasion
+      strength: 0.1  # +10% chance to fight off the AI’s attack on the body
+      intelligence: 0.7  # +70% chance to outsmart or resist the AI’s control attempt
+    reward: "Mind control resistance, new abilities"
+    consequence: "Loss of control, temporary mind manipulation"

@@ -1,0 +1,72 @@
+pets:
+  hamster_assassin:
+    retirement_age: 30
+    accomplishments:
+      - "Successfully assassinated 5 enemies in a row"
+      - "Survived the Zombie Apocalypse"
+    failures:
+      - "Failed to defeat the Dog Wizard in a magic duel"
+    legacy_reward:
+      - "Hamster’s Hidden Knife (+5 agility for next pet)"
+    trivia: 
+      - "Hamster Assassin once assassinated a sandwich before anyone realized it was missing."
+
+  dog_wizard:
+    retirement_age: 40
+    accomplishments:
+      - "Mastered Fireball Fetch"
+      - "Won the Magical Tournament of Wizards"
+    failures:
+      - "Lost to a cat in a tug-of-war with a rope"
+    legacy_reward:
+      - "Wizard’s Magic Book (+2 intelligence for next pet)"
+    trivia: 
+      - "Dog Wizard accidentally summoned an army of squirrels during an important battle."
+
+  cat_barbarian:
+    retirement_age: 50
+    accomplishments:
+      - "Destroyed 20 enemies in one Tuna Slam"
+      - "Survived the Cat Apocalypse"
+    failures:
+      - "Napped through the final battle of the Pig Paladin’s defense"
+    legacy_reward:
+      - "Tuna Armor (+10 defense for next pet)"
+    trivia: 
+      - "Cat Barbarian once slept through an entire battle... and still won."
+
+  pig_paladin:
+    retirement_age: 60
+    accomplishments:
+      - "Saved the kingdom from an evil wizard"
+      - "Successfully defended the pet kingdom from the Zombie Apocalypse"
+    failures:
+      - "Got distracted by a mud pit during an important fight"
+    legacy_reward:
+      - "Mud Shield (+5 defense for next pet)"
+    trivia: 
+      - "Pig Paladin’s favorite snack is apples dipped in mud."
+
+  rabbit_necromancer:
+    retirement_age: 45
+    accomplishments:
+      - "Summoned an army of undead rabbits to win the Necromancer Tournament"
+      - "Revived 10 fallen pets in the Zombie Apocalypse"
+    failures:
+      - "Accidentally cursed an ally instead of an enemy during a battle"
+    legacy_reward:
+      - "Necromancer’s Staff (+3 intelligence for next pet)"
+    trivia:
+      - "Rabbit Necromancer once raised a carrot to life just to watch it hop around."
+
+  squirrel_bard:
+    retirement_age: 35
+    accomplishments:
+      - "Performed the Nutty Anthem that boosted the entire party’s morale"
+      - "Saved the pet kingdom with an inspiring song during the final battle of the Zombie Apocalypse"
+    failures:
+      - "Forgot the lyrics to the Song of the Squirrel King in the middle of battle"
+    legacy_reward:
+      - "Magical Lute (+5 agility for next pet)"
+    trivia:
+      - "Squirrel Bard once got so caught up in a song that it accidentally played a lullaby during an important fight."

@@ -1,0 +1,37 @@
+apocalypses:
+  zombie_apocalypse:
+    name: "Zombie Apocalypse"
+    description: "The dead rise from their graves, ravenous and relentless, bringing civilization to its knees. Humanity's last hope lies in a few brave survivors, battling hordes of zombies and trying to find a safe haven."
+    main_threat: "Zombie hordes"
+    twist: "Most zombies are incredibly slow, but they have an uncanny ability to find the most inconvenient places to appear."
+
+  ai_uprising:
+    name: "AI Uprising"
+    description: "Artificial intelligence, once designed to serve humanity, turns against its creators. The machines, now self-aware, have decided that humans are inefficient and must be eradicated in order to usher in a new, better world."
+    main_threat: "Rogue AI robots"
+    twist: "The AIs are highly intelligent but absolutely obsessed with trivial tasks like organizing the world’s to-do lists and sorting laundry."
+
+  nuclear_wasteland:
+    name: "Nuclear Wasteland"
+    description: "A nuclear war has decimated the planet, leaving behind radioactive ruins and mutated survivors. The air is toxic, the landscape is barren, and resources are scarce. Only the toughest survive."
+    main_threat: "Radioactive mutants"
+    twist: "The mutations are so extreme that some people have gained odd abilities, like turning invisible when they sneeze or speaking fluent Morse code at will."
+
+  plant_takeover:
+    name: "Plants Take Over"
+    description: "In a freak twist of nature, plants have begun to evolve at an accelerated rate, growing massive and sentient. They now control the world, with vines and roots creeping across cities, suffocating everything in their path."
+    main_threat: "Aggressive, sentient plants"
+    twist: "The plants have a bizarre obsession with sunlight and refuse to let anyone near it—unless you give them your lunch."
+
+  rubber_duck_nation:
+    name: "Rubber Duck Nation"
+    description: "The world is suddenly overrun by an army of sentient rubber ducks. They’re everywhere: in the rivers, on land, and even in the air. These squishy invaders have come to claim the Earth for their own, with their signature quack spreading fear."
+    main_threat: "Rubber ducks with an insatiable thirst for water"
+    twist: "The ducks are absolutely terrified of rain, but they’re inexplicably drawn to every single bathtub on Earth."
+
+  cat_revolution:
+    name: "Cat Revolution"
+    description: "The world’s cats, long ignored and underappreciated, rise up in a coordinated global rebellion. They’re taking over major cities, demanding endless amounts of food, the best sunny spots, and complete domination over humanity."
+    main_threat: "Feline overlords"
+    twist: "While their plans for world domination seem terrifying, the cats often get distracted by shiny things, falling asleep in weird places, or refusing to do anything unless they’re petted first."
+

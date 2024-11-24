@@ -1,0 +1,100 @@
+events:
+  - name: "Zombie Horde Invasion"
+    description: "The pet’s home is overrun by a massive zombie horde. The player must decide whether to fight, flee, or barricade."
+    base_success_chance: 50  # Base success chance for escaping or surviving
+    success_modifier_by_stats:
+      agility: 0.1  # +10% success chance for higher agility (dodging, running)
+      strength: 0.15  # +15% success chance for higher strength (fighting off zombies)
+      intelligence: 0.1  # +10% success chance for higher intelligence (strategizing, barricading)
+    reward: "Survival, new weapon"
+    consequence: "Injury or zombie infection"
+
+  - name: "Supply Run"
+    description: "The pet must venture into a dangerous, zombie-infested area to gather resources."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to dodge zombies and move faster
+      strength: 0.05  # +5% for carrying more supplies and fending off zombies
+      intelligence: 0.2  # +20% for solving puzzles to unlock supply caches
+    reward: "Food, water, ammo"
+    consequence: "Zombie encounter, loss of supplies"
+
+  - name: "Bunker Discovery"
+    description: "The pet discovers a hidden underground bunker filled with supplies but it’s locked. The pet must find the key hidden in a nearby zombie-infested zone."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to avoid zombies while searching
+      strength: 0.1  # +10% chance to break into the bunker if needed
+      intelligence: 0.3  # +30% chance to solve puzzles or locate the key
+    reward: "Shelter, additional resources"
+    consequence: "Zombie attack while searching"
+
+  - name: "Mutant Zombie Encounter"
+    description: "A new breed of zombies, more powerful and mutated, threatens the pet’s survival."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.15  # +15% chance to dodge mutant zombie attacks
+      strength: 0.25  # +25% chance to defeat the mutant zombies in combat
+      intelligence: 0.1  # +10% chance to find a weak spot or strategy to fight mutants
+    reward: "Mutant zombie parts, new weapon"
+    consequence: "Severe injury or infection"
+
+  - name: "Zombie Boss Battle"
+    description: "The pet faces off against a giant zombie leader. The player must defeat it to progress."
+    base_success_chance: 30
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to dodge the boss's attacks
+      strength: 0.4  # +40% chance to land powerful hits
+      intelligence: 0.2  # +20% chance to identify the boss's weak points
+    reward: "Zombie boss trophy, new abilities"
+    consequence: "Death or heavy injury"
+
+  - name: "Zombie Traps"
+    description: "The pet finds itself caught in a zombie trap. The player must escape or disarm it."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.25  # +25% chance to escape quickly
+      strength: 0.1  # +10% chance to break free if trapped
+      intelligence: 0.3  # +30% chance to disarm or avoid traps
+    reward: "Trap components, safe escape"
+    consequence: "Trap malfunction, injury"
+
+  - name: "The Last Safe Haven"
+    description: "A group of survivors offers the pet a place in their community, but only if they can prove themselves."
+    base_success_chance: 70
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance for agility to complete a challenge
+      strength: 0.2  # +20% chance to prove physical capability
+      intelligence: 0.3  # +30% chance to solve challenges and gain trust
+    reward: "Allies, shelter"
+    consequence: "Failure to impress, banishment from group"
+
+  - name: "Zombie Evolution"
+    description: "The zombie virus evolves, causing new zombie types to emerge with strange powers."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.15  # +15% chance to evade new zombie types
+      strength: 0.2  # +20% chance to fight evolved zombies
+      intelligence: 0.25  # +25% chance to understand and counteract zombie mutations
+    reward: "New weapon or power-up"
+    consequence: "Encounter with dangerous new zombie type"
+
+  - name: "Zombie Ambush"
+    description: "A peaceful journey turns deadly when the pet is ambushed by a horde of zombies."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to dodge the ambush
+      strength: 0.2  # +20% chance to fight off the zombies
+      intelligence: 0.1  # +10% chance to outsmart the ambush or find an escape route
+    reward: "Survival, scavenged materials"
+    consequence: "Injury or minor infection"
+
+  - name: "Escape the City"
+    description: "The pet must escape a zombie-ridden city by reaching a helicopter or safe zone."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to escape the city quickly and avoid zombies
+      strength: 0.2  # +20% chance to fight through hordes if needed
+      intelligence: 0.2  # +20% chance to find safe routes or shortcuts
+    reward: "Escape, helicopter ride"
+    consequence: "Zombie attack during escape"

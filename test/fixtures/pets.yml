@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  species: MyString
+  hunger_level: 1
+  happiness: 1
+  health: 1
+  apocalypse_ready: false
+  user: one
+
+two:
+  name: MyString
+  species: MyString
+  hunger_level: 1
+  happiness: 1
+  health: 1
+  apocalypse_ready: false
+  user: two

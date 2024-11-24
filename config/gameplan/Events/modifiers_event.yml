@@ -1,0 +1,16 @@
+event_modifiers:
+  - name: "Weathered"
+    effect: "Reduces agility-based event success by 10% due to heavy rain or extreme weather."
+    description: "The storm slows you down, making it harder to complete tasks requiring speed."
+  
+  - name: "Overconfident"
+    effect: "Increases failure chance by 15% due to overestimating your ability in stressful situations."
+    description: "You’re too confident, and it causes mistakes when you least expect it."
+  
+  - name: "Well Rested"
+    effect: "Increases success rate of any event by 10% after a restful break."
+    description: "You’ve had some downtime, and now you’re more prepared than ever to take on the challenges ahead."
+  
+  - name: "Resourceful"
+    effect: "Increases the chance of finding useful items or shortcuts during apocalyptic events by 25%."
+    description: "You find what others overlook, using your resourcefulness to gain an edge."

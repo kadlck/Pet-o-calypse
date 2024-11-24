@@ -1,0 +1,110 @@
+events:
+  - name: "Radiation Storm"
+    description: "A deadly radiation storm sweeps through the wasteland. The pet must find shelter or risk radiation poisoning."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to outrun or find shelter quickly
+      strength: 0.1  # +10% chance to find or create a protective shelter
+      intelligence: 0.3  # +30% chance to identify a safe location using environmental clues
+    reward: "Shelter found, immunity to radiation for a short time"
+    consequence: "Radiation poisoning, health decrease"
+
+  - name: "Toxic Water Encounter"
+    description: "The pet stumbles upon a pool of toxic water, which could either be useful for survival or harmful. It must decide whether to drink or avoid."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to avoid or find clean water sources
+      strength: 0.2  # +20% chance to purify the water using available materials
+      intelligence: 0.4  # +40% chance to analyze the water and determine safety
+    reward: "Clean water, temporary hydration boost"
+    consequence: "Toxic water consumption, health decrease"
+
+  - name: "Scavenger Hunt"
+    description: "The pet goes scavenging in a ruined city for valuable supplies. The pet must dodge threats and find useful items."
+    base_success_chance: 65
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to avoid threats and traps while scavenging
+      strength: 0.2  # +20% chance to carry heavier loot or survive attacks
+      intelligence: 0.3  # +30% chance to identify the most valuable supplies
+    reward: "Food, water, weapons, survival gear"
+    consequence: "Ambushed by raiders, injury, or loss of loot"
+
+  - name: "Nuclear Fallout Shelter Discovery"
+    description: "The pet discovers an abandoned fallout shelter. The pet must decide whether to enter and risk radiation or stay outside."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.1  # +10% chance to escape quickly if the shelter is compromised
+      strength: 0.3  # +30% chance to break into the shelter or fortify it
+      intelligence: 0.4  # +40% chance to evaluate the shelter's safety and gain access
+    reward: "Safe shelter, medical supplies, food"
+    consequence: "Radiation exposure, dangerous occupants inside"
+
+  - name: "Mysterious Radiation Source"
+    description: "The pet discovers a glowing, radioactive object. It could be valuable, but it also poses a serious risk. The pet must decide how to handle it."
+    base_success_chance: 45
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to safely investigate the object without exposure
+      strength: 0.1  # +10% chance to transport or remove the object without triggering danger
+      intelligence: 0.5  # +50% chance to analyze the object and understand the risks involved
+    reward: "Valuable radioactive material, rare resources"
+    consequence: "Radiation exposure, mutations"
+
+  - name: "Mutant Creature Attack"
+    description: "A mutated creature attacks the pet. The pet must defend itself or escape from the monster."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.5  # +50% chance to dodge the creature’s attack or escape
+      strength: 0.3  # +30% chance to fight off the creature or kill it
+      intelligence: 0.2  # +20% chance to outsmart the creature or find a weak spot
+    reward: "Mutant parts, food, survival gear"
+    consequence: "Injury, loss of resources"
+
+  - name: "Crater Survival"
+    description: "The pet finds itself in a massive nuclear crater filled with dangerous debris. The pet must navigate the area safely."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to leap over obstacles or avoid falling
+      strength: 0.2  # +20% chance to move large debris or use tools to aid movement
+      intelligence: 0.4  # +40% chance to assess safe paths and avoid hazardous zones
+    reward: "Hidden loot, safe passage"
+    consequence: "Injury from falling debris, environmental damage"
+
+  - name: "Raider Encounter"
+    description: "The pet is ambushed by a group of raiders. It must fight, negotiate, or escape the situation."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to escape or evade the raiders
+      strength: 0.3  # +30% chance to overpower the raiders in combat
+      intelligence: 0.2  # +20% chance to negotiate or deceive the raiders
+    reward: "Raiders' loot, weapons, survival gear"
+    consequence: "Raiders' attack, loss of loot or injury"
+
+  - name: "Radiation Clean-Up"
+    description: "The pet finds an area heavily contaminated with radiation. It must clean up or detoxify the area to make it safe for future use."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to avoid radiation bursts while cleaning
+      strength: 0.3  # +30% chance to use tools to clean up effectively
+      intelligence: 0.5  # +50% chance to understand radiation removal techniques
+    reward: "Safe zone, useful resources"
+    consequence: "Exposure to radiation, health damage"
+
+  - name: "Scorched Earth Encounter"
+    description: "The pet comes across a scorched earth zone where nothing survives. It must figure out how to find food or shelter in this barren land."
+    base_success_chance: 35
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to navigate through harsh terrain
+      strength: 0.4  # +40% chance to gather resources or build shelter
+      intelligence: 0.3  # +30% chance to analyze the environment and find hidden resources
+    reward: "Basic survival supplies, shelter"
+    consequence: "Starvation, exposure, or dehydration"
+
+  - name: "Wasteland Storm"
+    description: "A violent storm of toxic dust and sand hits the wasteland. The pet must find cover or risk suffocation and poisoning."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to avoid the storm or find shelter quickly
+      strength: 0.2  # +20% chance to endure the storm's harsh conditions
+      intelligence: 0.3  # +30% chance to use environmental knowledge to find cover
+    reward: "Shelter found, temporary immunity to the storm"
+    consequence: "Poisoning, health decrease from storm exposure"

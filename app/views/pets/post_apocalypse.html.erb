@@ -1,0 +1,15 @@
+<div class="apocalypse-container">
+  <h1><%= @pet.name %>: Survivor Mode</h1>
+  <p>Hunger: <%= @pet.hunger_level %></p>
+  <p>Happiness: <%= @pet.happiness %></p>
+  <p>Health: <%= @pet.health %></p>
+  <p>Agility: <%= @pet.agility %></p>
+  <p>Strength: <%= @pet.strength %></p>
+  <p>Intelligence: <%= @pet.intelligence %></p>
+
+  <div class="survival-actions">
+    <%= button_to "Scavenge", "#", class: "button survival-scavenge" %>
+    <%= button_to "Fight", "#", class: "button survival-fight" %>
+    <%= button_to "Hide", "#", class: "button survival-hide" %>
+  </div>
+</div>

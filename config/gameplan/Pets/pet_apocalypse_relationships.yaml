@@ -1,0 +1,127 @@
+relationships:
+  hamster_assassin:
+    apocalypse_relationships:
+      zombie_apocalypse:
+        result: "Great"
+        description: "The hamster is quick and stealthy, perfect for navigating through zombie-infested areas. It’s small enough to hide and avoid detection, making it an ideal survivor."
+      ai_uprising:
+        result: "Average"
+        description: "The hamster's stealth can be useful against AI robots, but it lacks the firepower to fight back. It would likely try to sneak past the machines, but could also get caught easily."
+      nuclear_wasteland:
+        result: "Bad"
+        description: "The hamster is too small and fragile for the harsh, radioactive environment. It would likely struggle to survive without shelter or food."
+      plant_takeover:
+        result: "Average"
+        description: "Hamsters are good at burrowing, so they might be able to escape some of the more aggressive plant threats. But they would still have to face an overrun world of sentient vines."
+      rubber_duck_nation:
+        result: "Great"
+        description: "The hamster is too fast and agile for the rubber ducks to catch, and its small size allows it to outmaneuver them with ease."
+      cat_revolution:
+        result: "Bad"
+        description: "Hamsters are a natural enemy to cats, and the hamster would likely be hunted down or ignored by the feline overlords."
+
+  dog_wizard:
+    apocalypse_relationships:
+      zombie_apocalypse:
+        result: "Great"
+        description: "A dog with wizard powers would be able to fight off zombies with magic. It can summon fireballs and barriers to protect itself and its allies."
+      ai_uprising:
+        result: "Average"
+        description: "While the dog has some magical abilities, it lacks the technological knowledge to deal with advanced AI. It might try to summon creatures to fight, but the AI is too intelligent."
+      nuclear_wasteland:
+        result: "Good"
+        description: "The dog can use its magic to provide some protection from radiation, and its instincts and loyalty would help it navigate the wasteland."
+      plant_takeover:
+        result: "Bad"
+        description: "The dog’s magic doesn’t affect plants in the same way it affects other threats. The sentient plants might even use their vines to trap the dog in place."
+      rubber_duck_nation:
+        result: "Great"
+        description: "The dog can simply summon a fireball and burn the rubber ducks away, making them an easy target for its magical attacks."
+      cat_revolution:
+        result: "Average"
+        description: "The dog is powerful, but it might not want to fight the cats—especially since the cats are in control. The dog may have to use its magic to retreat or defend rather than attack."
+
+  cat_barbarian:
+    apocalypse_relationships:
+      zombie_apocalypse:
+        result: "Great"
+        description: "The cat’s toughness and battle scars make it a strong warrior in the zombie apocalypse. With its sharp claws and tuna can weapon, it can easily dispatch zombies."
+      ai_uprising:
+        result: "Average"
+        description: "The cat might not be the most strategic, but its brute strength and instincts will help it in close combat with AI robots. Still, it’s not the most magical or tech-savvy."
+      nuclear_wasteland:
+        result: "Good"
+        description: "The cat can adapt to the wasteland and use its survival skills. Its resilience to damage and battle experience makes it a tough competitor in a post-apocalyptic world."
+      plant_takeover:
+        result: "Average"
+        description: "While the cat can fight off some plant-based threats, the massive, sentient plants might overwhelm it. Still, it’s not afraid to claw its way to victory."
+      rubber_duck_nation:
+        result: "Bad"
+        description: "Cats aren’t great at dealing with the rubber ducks. The ducks may be too many, too squishy, or too distracting for the cat to focus on any serious fight."
+      cat_revolution:
+        result: "Great"
+        description: "The cat would thrive in the Cat Revolution, using its strength and battle experience to rise through the ranks and potentially become the leader of the cat army."
+
+  pig_paladin:
+    apocalypse_relationships:
+      zombie_apocalypse:
+        result: "Good"
+        description: "The pig paladin can use its Holy Oink to stun zombies and protect its allies. Its size and strength make it a good defender against zombie hordes."
+      ai_uprising:
+        result: "Bad"
+        description: "While the pig is strong, it’s not suited for dealing with advanced AI technology. The machines would quickly overpower the pig without much resistance."
+      nuclear_wasteland:
+        result: "Great"
+        description: "The pig's divine powers could shield it from radiation, and its paladin armor makes it resilient to the harsh conditions of the wasteland."
+      plant_takeover:
+        result: "Great"
+        description: "The pig's holy powers can push back the plant uprising, and its strength and divine healing abilities could help it clear out plant-controlled zones."
+      rubber_duck_nation:
+        result: "Average"
+        description: "The pig isn’t particularly threatened by the rubber ducks, but its tendency to get distracted by food could be its downfall."
+      cat_revolution:
+        result: "Bad"
+        description: "The pig paladin may be strong, but the cats would see it as a competitor for leadership. The pigs may be ignored or outright challenged by the feline revolutionaries."
+
+  rabbit_necromancer:
+    apocalypse_relationships:
+      zombie_apocalypse:
+        result: "Great"
+        description: "The rabbit can summon skeletons and other undead to fight the zombie hordes, making it a powerful ally in the apocalypse."
+      ai_uprising:
+        result: "Good"
+        description: "The rabbit can use necromantic powers to raise an army of the dead to fight the AI, but the AI's technology could still be a challenge."
+      nuclear_wasteland:
+        result: "Bad"
+        description: "The rabbit is small and frail, making it difficult to survive the harsh conditions of a nuclear wasteland without significant help."
+      plant_takeover:
+        result: "Average"
+        description: "The rabbit might be able to negotiate with some of the plants, but it would still be at risk of getting trapped in vines or attacked by the larger, sentient species."
+      rubber_duck_nation:
+        result: "Bad"
+        description: "The rubber ducks are too numerous and too squishy for the rabbit to handle. It’s too small and distracted by its own carrot obsession to fight back effectively."
+      cat_revolution:
+        result: "Bad"
+        description: "The rabbit has no place in the Cat Revolution. It’s too weak and unlikely to be accepted by the cats, who would likely see it as a weakling or prey."
+
+  squirrel_bard:
+    apocalypse_relationships:
+      zombie_apocalypse:
+        result: "Average"
+        description: "The squirrel can use its storytelling and song to rally survivors, but it might struggle in direct combat against the zombies. It can charm some zombies into a trance, but not all."
+      ai_uprising:
+        result: "Good"
+        description: "The squirrel’s ability to tell tales and sing songs could confuse and distract the AI, giving humans enough time to regroup and fight back."
+      nuclear_wasteland:
+        result: "Bad"
+        description: "The squirrel's small size and lack of armor make it highly vulnerable to the nuclear fallout. It struggles to survive without magical intervention."
+      plant_takeover:
+        result: "Great"
+        description: "The squirrel is an expert at scaling trees and surviving in nature, which gives it an edge in the plant-controlled world. Its bardic abilities can charm the plants, easing its way through hostile territory."
+      rubber_duck_nation:
+        result: "Average"
+        description: "The squirrel might struggle with the sheer numbers of ducks, but it can use its agility to dodge them. However, its small size makes it a target for the more persistent ducks."
+      cat_revolution:
+        result: "Bad"
+        description: "The squirrel is just too much of a nuisance to the cats. Its songs might anger them, and its tiny size makes it a poor contender in the war for feline dominance."
+

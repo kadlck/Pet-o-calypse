@@ -1,0 +1,48 @@
+pets:
+  hamster_assassin:
+    backstory:
+      1: "Before becoming an assassin, Hamster was just a regular pet, running on a wheel in a quiet home. One day, a mysterious figure handed him a tiny dagger and said, 'You're destined for greatness.'"
+      2: "Hamster spent years training in the art of stealth and assassination, mastering the deadly art of the Toothpick Throw and becoming a legend among pet-kind."
+      3: "Rumor has it, Hamster once narrowly escaped a deadly mission when he was distracted by a rolling peanut."
+      4: "Despite his deadly skills, Hamster is known for his love of belly rubs and his frequent naps in between high-stakes missions."
+      5: "Hamster's greatest regret? Not being able to assassinate the human who replaced his favorite running wheel with a treadmill."
+
+  dog_wizard:
+    backstory:
+      1: "Dog Wizard was once just a regular puppy, with dreams of fetching the best sticks. One day, a mystical wizard dropped his enchanted chew toy, and Dog picked it up, unknowingly becoming a master of magic."
+      2: "It is said that Dog Wizard learned magic from a particularly wise, yet very lazy, elder dog who mostly taught by napping and occasionally casting fireballs in his sleep."
+      3: "Dog Wizard's most embarrassing moment occurred during his first magical duel when he summoned a rain of hot dogs instead of fireballs."
+      4: "He’s known for getting distracted by squirrels mid-cast, but somehow always manages to pull off a spell just in time."
+      5: "When Dog Wizard first discovered he could use his magic to summon bones, he almost accidentally summoned an entire cemetery."
+
+  cat_barbarian:
+    backstory:
+      1: "Cat Barbarian grew up in the wilds of the backyard, battling rival cats for supremacy and the occasional can of tuna. He was once a small, scrappy kitten, but he soon grew into a muscular powerhouse."
+      2: "Legend has it that Cat Barbarian once destroyed an entire mouse army in a single Tuna Slam, all while half-asleep."
+      3: "Cat has a deep love for naps and will often take a long rest mid-battle, only to wake up and finish the fight with newfound strength."
+      4: "Although feared on the battlefield, Cat Barbarian has a soft spot for kittens and often retreats to a secret cave to relax with them after a hard-fought battle."
+      5: "His greatest triumph was defeating the Pig Paladin in a battle of strength, though the victory was almost overshadowed by his sudden need to nap immediately afterward."
+
+  pig_paladin:
+    backstory:
+      1: "Pig Paladin was born in a small farm, destined for a life of mud baths and sleeping under the sun. But one fateful day, a wandering knight saw the potential for greatness and equipped him with enchanted armor."
+      2: "Pig's first quest was to defend a tiny, defenseless hamster from a rampaging ferret. The ferret was no match for Pig’s divine oink, and the hamster still tells the tale of that fateful day."
+      3: "Despite his heroic nature, Pig Paladin's love for apples dipped in mud is legendary. He can often be found in the middle of a battle, munching away on his favorite snack."
+      4: "Pig’s armor, while mighty, has often been a source of frustration. He’s gotten stuck in doors more than once while trying to save the day."
+      5: "Pig Paladin's greatest rival was a particularly vicious goose, but after many years, they formed an unlikely friendship based on a shared love of mud."
+
+  rabbit_necromancer:
+    backstory:
+      1: "Rabbit Necromancer once lived a peaceful life, hopping around fields and nibbling on carrots. But when a dark force cursed his carrot patch, he was forced to turn to necromantic magic to defend it."
+      2: "He quickly mastered the dark arts of carrot magic and raised an army of skeletal rabbits to fight for him. Rumor has it he named them all after vegetables, just to mess with the enemy."
+      3: "Rabbit Necromancer once accidentally summoned an army of undead carrots during a particularly stressful afternoon. They didn’t fight, but they did make for some awkward conversations."
+      4: "Despite his dark powers, Rabbit has a soft spot for other pets and enjoys sharing his magical carrot bouquets with friends."
+      5: "Rabbit’s most embarrassing moment was when he accidentally raised a ghost rabbit that kept haunting his carrot patch, repeating the same loop of 'Hop.'"
+
+  squirrel_bard:
+    backstory:
+      1: "Squirrel Bard was once a simple woodland creature, living a carefree life until he discovered the magical power of music when a passing bird taught him to play the lute."
+      2: "From that day on, Squirrel began composing songs and performing for the other woodland creatures. He quickly became a legend among the forest animals, despite having no formal training."
+      3: "Squirrel Bard’s most famous song, 'Nutty Anthem,' was written after a particularly difficult battle with a rival squirrel gang. It was so powerful that it inspired even the birds to join in."
+      4: "Despite his musical talent, Squirrel is known to have a massive ego and refuses to perform unless he’s given a standing ovation at the end of every song."
+      5: "His greatest adventure was when he led a band of woodland creatures to victory over an army of sentient mushrooms, using only his lute and a very enthusiastic crowd."

@@ -1,0 +1,101 @@
+events:
+  - name: "Catnip Conspiracy"
+    description: "A mysterious figure offers the pet a stash of catnip. The pet must decide whether to take it or leave it, risking the wrath of a powerful faction."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to evade a potential ambush after taking the catnip
+      strength: 0.2  # +20% chance to withstand any physical challenges caused by catnip
+      intelligence: 0.4  # +40% chance to use the catnip strategically without drawing attention
+    reward: "Increased agility and perception"
+    consequence: "Too much catnip, causing confusion and reduced strength"
+
+  - name: "Whisker Diplomacy"
+    description: "A group of rival cats seeks an alliance. The pet can either negotiate peace or go to war with them."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to sneak away unnoticed if the diplomacy fails
+      strength: 0.3  # +30% chance to overpower the rival cats in a battle for dominance
+      intelligence: 0.5  # +50% chance to successfully negotiate peace or an advantageous alliance
+    reward: "Allied cats, gain strategic advantage"
+    consequence: "War with the rival cats, increased hostility from others"
+
+  - name: "Kitten Swarm"
+    description: "A swarm of kittens overcomes the pet. The pet can either fight them off or find a way to escape."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.5  # +50% chance to avoid the kittens and flee safely
+      strength: 0.3  # +30% chance to fight them off
+      intelligence: 0.2  # +20% chance to find a clever solution to outwit the kittens
+    reward: "Safety, kittens become your followers"
+    consequence: "Overrun by the kittens, lose health or energy"
+
+  - name: "Alleyway Ambush"
+    description: "The pet is ambushed by a gang of street cats. The pet must decide whether to fight, negotiate, or flee."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to dodge and escape the ambush
+      strength: 0.5  # +50% chance to fight and overpower the gang
+      intelligence: 0.3  # +30% chance to negotiate a peaceful solution
+    reward: "Respect from the street cats, access to their underground network"
+    consequence: "Overpowered by the gang, health decrease"
+
+  - name: "Feline Fiefdom"
+    description: "The pet comes across a newly-formed feline kingdom. Should the pet try to join, overthrow the leader, or remain neutral?"
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to infiltrate the kingdom without raising suspicion
+      strength: 0.4  # +40% chance to challenge and overthrow the current leader
+      intelligence: 0.5  # +50% chance to form a strategic alliance with the ruling faction
+    reward: "Become part of the feline kingdom, gain valuable resources"
+    consequence: "Failure, get kicked out or attacked by the kingdom's forces"
+
+  - name: "The Great Fur War"
+    description: "An all-out war breaks out between rival feline factions. The pet must lead their faction or survive as a lone wolf."
+    base_success_chance: 45
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to evade the battle and sneak to safety
+      strength: 0.5  # +50% chance to fight for dominance and lead the faction
+      intelligence: 0.3  # +30% chance to outsmart enemies and secure peace or advantage
+    reward: "Victory in the war, lead your faction to prominence"
+    consequence: "Defeat, the faction loses ground and resources"
+
+  - name: "Purrfect Alliance"
+    description: "A chance meeting with an influential cat leader offers an alliance. Should the pet form an alliance or refuse?"
+    base_success_chance: 70
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to avoid being manipulated by the leader
+      strength: 0.2  # +20% chance to assert dominance if needed
+      intelligence: 0.5  # +50% chance to wisely accept or reject the offer
+    reward: "Alliance with a powerful faction of cats"
+    consequence: "Become a pawn in the leader's scheme if not careful"
+
+  - name: "Catnip Uprising"
+    description: "The pet discovers a secret underground movement of cats planning a catnip-fueled uprising. The pet can choose to join or stop the uprising."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to infiltrate the movement without being detected
+      strength: 0.4  # +40% chance to lead the charge and succeed in the uprising
+      intelligence: 0.3  # +30% chance to use strategy to disrupt or lead the uprising
+    reward: "Uprising success, gain followers"
+    consequence: "Failure, get caught and punished by the faction"
+
+  - name: "Nine Lives of Glory"
+    description: "The pet finds an ancient relic that grants them nine lives, but each life comes with a consequence. Will the pet risk it?"
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to evade the negative consequences of using the relic
+      strength: 0.4  # +40% chance to survive the risks and gain power from each life
+      intelligence: 0.5  # +50% chance to understand the relic's secrets and use it wisely
+    reward: "Extra lives, potential for great power"
+    consequence: "Lose a life with each risky move, potential long-term consequences"
+
+  - name: "Rise of the Feline Overlord"
+    description: "The cats have taken control and established a new world order. The pet must choose whether to join the feline overlords, rebel against them, or flee."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to escape the cat overlords' gaze if they refuse to join
+      strength: 0.4  # +40% chance to resist the cats' domination and fight back
+      intelligence: 0.3  # +30% chance to devise a clever plan to avoid submission or rebellion
+    reward: "Gain favor with the cats if you join them, or escape with your life if you rebel"
+    consequence: "Failure to escape results in being enslaved by the cats, loss of freedom"
+

@@ -1,0 +1,40 @@
+user_accomplishments:
+  - name: "Apocalyptic Pet Master"
+    description: "You survived 10 apocalypses with three pets that thrived during different apocalyptic events."
+    condition: "Successfully completed all apocalyptic events with three pets that each thrived during one specific apocalypse."
+
+  - name: "The Undying Collection"
+    description: "All your pets have perished, but you keep going. You shall not be stopped!"
+    condition: "Every single pet has died in the course of their apocalyptic journey."
+
+  - name: "Cat Revolution Leader"
+    description: "You helped your cat rise to power during the Cat Apocalypse and led a feline uprising!"
+    condition: "Successfully triggered and completed the special 'Cat Revolution' event in the Cat Apocalypse."
+
+  - name: "Necromancer's Triumph"
+    description: "Your rabbit necromancer raised an army of undead rabbits during the Zombie Apocalypse and triumphed!"
+    condition: "Successfully completed the special event for the Rabbit Necromancer during the Zombie Apocalypse."
+
+  - name: "Zombie Snack"
+    description: "Your pets didn't just survive the Zombie Apocalypse—they thrived! And you enjoyed a nice snack while at it."
+    condition: "At least two pets successfully completed events during the Zombie Apocalypse."
+
+  - name: "Super Squirrel Hero"
+    description: "Your Squirrel Bard single-handedly turned the tide of battle with a rousing performance during an apocalyptic event!"
+    condition: "Successfully completed an event where the Squirrel Bard's 'Song of the Squirrel King' saved the day."
+
+  - name: "Ultimate Swine Savior"
+    description: "Your pig paladin protected every ally, saved a village, and even found the best snacks during the apocalypse."
+    condition: "Successfully completed an event where the Pig Paladin’s 'Divine Trot' healed the most allies."
+
+  - name: "Master of All Apocalypse"
+    description: "You mastered every apocalypse scenario, with every pet making it through unscathed."
+    condition: "Successfully completed every type of apocalypse with at least one pet surviving each."
+
+  - name: "Heroic Hamster"
+    description: "Your hamster assassin sneaked past the apocalypse and took down the enemy without breaking a sweat."
+    condition: "Successfully completed the 'Hamster Wheel of Death' in at least one apocalyptic event."
+
+  - name: "Mighty Wizard of Bones"
+    description: "Your Dog Wizard has mastered the art of necromancy. You summoned the ultimate magical canine army!"
+    condition: "Successfully summoned an army of undead dogs during the Zombie Apocalypse using 'Summon Squirrel'."

@@ -1,0 +1,100 @@
+events:
+  - name: "Rampant Vine Growth"
+    description: "The ground is covered by thick, sprawling vines. The pet must navigate through the overgrowth or risk getting trapped."
+    base_success_chance: 60
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to dodge or find a quick path through the vines
+      strength: 0.3  # +30% chance to clear or break through the vines
+      intelligence: 0.2  # +20% chance to identify weak spots or optimal paths
+    reward: "Quick passage, hidden loot discovered"
+    consequence: "Vines entangle the pet, slowing progress or causing injury"
+
+  - name: "Poisonous Flower Encounter"
+    description: "A field of toxic, brightly colored flowers has been discovered. The pet must avoid inhaling their spores or suffer toxic effects."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to avoid getting close enough to inhale spores
+      strength: 0.2  # +20% chance to break through the flower patch safely
+      intelligence: 0.5  # +50% chance to identify the flowers' dangers and avoid them
+    reward: "Clean air, survival boost"
+    consequence: "Toxic spores inhaled, health decrease"
+
+  - name: "Giant Tree Shelter"
+    description: "A massive tree offers shelter from the elements, but its height makes it hard to climb. The pet must decide whether to scale the tree or risk exposure."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.5  # +50% chance to climb the tree quickly and safely
+      strength: 0.2  # +20% chance to use strength to reach higher branches or build shelter
+      intelligence: 0.3  # +30% chance to find hidden pathways or safer entry points
+    reward: "Safe shelter, food or water from tree's fruits"
+    consequence: "Failed climb, fall, injury"
+
+  - name: "Carnivorous Plants Attack"
+    description: "The pet encounters a cluster of aggressive carnivorous plants. It must fight, evade, or outsmart them to survive."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to avoid being caught or attacked
+      strength: 0.5  # +50% chance to fight off or destroy the plants
+      intelligence: 0.3  # +30% chance to outwit or trick the plants into retreating
+    reward: "Plant resources, rare items"
+    consequence: "Injured by plant attack, health decrease"
+
+  - name: "Overrun Farm"
+    description: "The pet comes across an abandoned farm overrun by mutant crops. It must decide whether to take the risk and harvest crops or avoid them."
+    base_success_chance: 45
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to harvest crops safely without being caught by plant traps
+      strength: 0.2  # +20% chance to clear mutant plants and secure crops
+      intelligence: 0.4  # +40% chance to analyze and find safe harvesting methods
+    reward: "Food, rare plant-based materials"
+    consequence: "Attacked by mutant crops, loss of health"
+
+  - name: "Forest Fire"
+    description: "A sudden fire caused by the invasive plant species threatens the pet. The pet must act quickly to avoid being trapped in the blaze."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.5  # +50% chance to escape the fire by outrunning it
+      strength: 0.3  # +30% chance to create firebreaks or barricades to escape
+      intelligence: 0.2  # +20% chance to find a safe route using environmental knowledge
+    reward: "Survival, avoidance of damage"
+    consequence: "Injured by flames, health decrease"
+
+  - name: "Lush Jungle Habitat"
+    description: "The pet finds an incredibly lush jungle full of food and resources. It must decide whether to risk staying here or move on to a safer area."
+    base_success_chance: 65
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to navigate through dense jungle quickly
+      strength: 0.4  # +40% chance to gather resources and clear space
+      intelligence: 0.3  # +30% chance to determine the area's sustainability for survival
+    reward: "Abundant resources, food, water"
+    consequence: "Dangerous predators, possible disease or infestation"
+
+  - name: "Tree Guardian"
+    description: "The pet encounters a mutated, sentient tree that protects the surrounding forest. The pet must communicate or battle the tree for resources."
+    base_success_chance: 40
+    success_modifier_by_stats:
+      agility: 0.2  # +20% chance to dodge the tree’s aggressive branches
+      strength: 0.5  # +50% chance to fight or overpower the tree’s defense
+      intelligence: 0.4  # +40% chance to negotiate or understand the tree’s motives
+    reward: "Rare plant-based materials, tree's blessings"
+    consequence: "Injured by tree's defense, loss of resources"
+
+  - name: "Toxic Fog"
+    description: "The pet stumbles into a patch of toxic fog caused by rapid plant growth. It must find a way out before being poisoned."
+    base_success_chance: 50
+    success_modifier_by_stats:
+      agility: 0.4  # +40% chance to escape quickly and avoid the fog
+      strength: 0.3  # +30% chance to move through or clear the fog
+      intelligence: 0.3  # +30% chance to identify the fog's origin and avoid it
+    reward: "Escape unharmed, temporary immunity to toxins"
+    consequence: "Poisoning, health decrease"
+
+  - name: "Mutant Fruit Harvest"
+    description: "The pet comes across a tree bearing giant, mutated fruit. It can harvest these fruits for sustenance, but some may be dangerous."
+    base_success_chance: 55
+    success_modifier_by_stats:
+      agility: 0.3  # +30% chance to pick fruits safely without getting attacked
+      strength: 0.4  # +40% chance to handle the mutated fruit's weight and size
+      intelligence: 0.3  # +30% chance to determine if the fruit is safe to eat
+    reward: "Food, rare mutated fruit"
+    consequence: "Poisonous fruit, health decrease"
