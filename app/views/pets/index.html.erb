@@ -3,10 +3,14 @@
 <%= link_to "Create a New Pet", new_pet_path, class: "btn btn-primary" %>
 
 <ul>
+  <% if @pets.any?%>
   <% @pets.each do |pet| %>
     <li>
       <strong><%= pet.name %></strong> (Species: <%= pet.species %>)  
       - Health: <%= pet.health %>, Happiness: <%= pet.happiness %>, Hunger: <%= pet.hunger_level %>
     </li>
+      <% end %>
+    <% else%>
+      <div>You have no pet so far</div>
   <% end %>
 </ul>

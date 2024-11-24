@@ -12,6 +12,9 @@ resources :pets do
     patch :feed
     patch :play
     patch :nap
+    patch :scavenge
+    patch :fight
+    patch :hide
   end
   get :post_apocalypse, on: :member
   post :trigger_apocalypse, on: :member

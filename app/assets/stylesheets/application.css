@@ -8,3 +8,8 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ .pet-image {
+    max-width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }

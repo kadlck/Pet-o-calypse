@@ -6,10 +6,8 @@ class Event < ApplicationRecord
 
   # Calculate success chance based on pet stats
   def success_chance(pet)
-    base_success_chance +
-      (pet.agility * agility_modifier.to_f) +
-      (pet.strength * strength_modifier.to_f) +
-      (pet.intelligence * intelligence_modifier.to_f)
+    base_success_chance
+    # finish later
   end
 
   # Process the outcome of the event

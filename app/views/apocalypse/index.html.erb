@@ -1,0 +1,15 @@
+<h1>Available Events for <%= @pet.name %></h1>
+
+<% if @available_events.any? %>
+  <ul>
+    <% @available_events.each do |event| %>
+      <li>
+        <h3><%= event.name %></h3>
+        <p><%= event.description %></p>
+        <%= button_to "Start Event", fight_pet_path(@pet), method: :patch, class: "btn btn-primary" %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No events available right now. Try hiding to recover or wait for new challenges!</p>
+<% end %>

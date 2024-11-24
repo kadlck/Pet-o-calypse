@@ -1,0 +1,10 @@
+<h1>Welcome to Petcolypse!</h1>
+
+<% if user_signed_in? %>
+  <div class="navigation-buttons">
+    <%= link_to "Create Pet", new_pet_path, class: "btn btn-primary" %>
+    <%= link_to "View Pets", pets_path, class: "btn btn-secondary" %>
+  </div>
+<% else %>
+  <p>Please <%= link_to 'Sign In', new_user_session_path %> to start your adventure!</p>
+<% end %>

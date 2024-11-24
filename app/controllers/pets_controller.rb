@@ -46,6 +46,34 @@ class PetsController < ApplicationController
     redirect_to pet_path(@pet)
   end
 
+  def scavenge
+    @pet = Pet.find(params[:id])
+    @available_events = @pet.apocalypse.events
+    redirect_to apocalypse_index_path
+  end
+
+  def fight
+    @pet = Pet.find(params[:id])
+    random_event = @pet.apocalypse.events.sample
+    if random_event.present?
+      process_event(@pet, random_event)
+    else
+      flash[:notice] = "No events available to fight."
+    end
+    redirect_to event_path(@pet)
+  end
+
+  def hide
+    @pet = Pet.find(params[:id])
+    @pet.increase_health(1) # Increase pet's health
+    if @pet.save
+      flash[:success] = "Your pet successfully hid and regained some health!"
+    else
+      flash[:alert] = "Something went wrong while hiding."
+    end
+    redirect_to pet_path(@pet)
+  end
+
   # Action to show form for creating a new pet
   def new
     @pet = Pet.new

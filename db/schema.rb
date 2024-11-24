@@ -12,12 +12,14 @@
 
 ActiveRecord::Schema[8.0].define(version: 2024_11_23_203037) do
   create_table "apocalypses", force: :cascade do |t|
+    t.integer "pet_id", null: false
     t.string "name"
     t.text "description"
     t.string "twist"
     t.string "main_threat"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["pet_id"], name: "index_apocalypses_on_pet_id"
   end
 
   create_table "events", force: :cascade do |t|
@@ -130,6 +132,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_23_203037) do
     t.index ["username"], name: "index_users_on_username", unique: true
   end
 
+  add_foreign_key "apocalypses", "pets"
   add_foreign_key "events", "apocalypses"
   add_foreign_key "mini_games", "apocalypses"
   add_foreign_key "pet_buffs", "pets"

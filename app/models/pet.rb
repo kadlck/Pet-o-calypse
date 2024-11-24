@@ -3,7 +3,6 @@ class Pet < ApplicationRecord
   has_many :pet_buffs, dependent: :destroy
   has_many :pet_moods, dependent: :destroy
   has_one :apocalypse, dependent: :destroy
-  serialize :history_unlocked, Array
 
 
   # Validations
@@ -15,7 +14,7 @@ class Pet < ApplicationRecord
 
   # Load all pet data from YAML
   def self.load_all_pets
-    pet_file = Rails.root.join("config", "gameplan", "pets", "pets.yml")
+    pet_file = Rails.root.join("config", "gameplan", "Pets", "pets.yml")
     YAML.load_file(pet_file)["pets"]
   end
 
@@ -30,13 +29,24 @@ class Pet < ApplicationRecord
   end
 
   def self.load_pet_histories
-    history_file = Rails.root.join("config", "gameplan", "pets", "pet_histories.yml")
+    history_file = Rails.root.join("config", "gameplan", "Pets", "pet_histories.yml")
     YAML.load_file(history_file)["pets"]
   end
 
   # Set default stats and abilities from the YAML data
   after_create :set_default_stats_and_abilities
 
+  def decrease_hunger(integer)
+    self.hunger_level -= integer
+  end
+
+  def increase_happiness(integer)
+    self.happiness += integer
+  end
+
+  def increase_health(integer)
+    self.health += integer
+  end
 
 
   def apply_buff(buff_name)
@@ -148,6 +158,11 @@ class Pet < ApplicationRecord
     self.level += 1
   end
 
+  def trigger_apocalypse
+    return apocalypse if apocalypse.present?
+    Apocalypse.decide_for_pet(self)
+  end
+
   private
 
   def set_default_stats_and_abilities
@@ -164,7 +179,7 @@ class Pet < ApplicationRecord
     self.twist = pet_data["twist"]
     self.class_name = pet_data["class"]
 
-    self.levels = pet_data["levels"]
+    self.level = pet_data["levels"][1]
     save
   end
 
@@ -176,7 +191,7 @@ class Pet < ApplicationRecord
     self.apocalypse_ready ||= false
     self.retired ||= false
     self.feud ||= nil # Feud can be dynamically assigned later
-    self.experince = 0
+    self.experience = 0
     self.history_unlocked ||= []
     self.abilities_level_unlocked = []
     self.mood ||= []
@@ -190,10 +205,5 @@ class Pet < ApplicationRecord
     else
       duration.to_i # Convert to integer for time-based durations
     end
-  end
-
-  def trigger_apocalypse
-    return apocalypse if apocalypse.present?
-    Apocalypse.decide_for_pet(self)
   end
 end

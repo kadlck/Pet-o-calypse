@@ -1,5 +1,6 @@
 <div class="apocalypse-container">
   <h1><%= @pet.name %>: Survivor Mode</h1>
+  <%= image_tag "hamster_assasin.webp", alt: "Hamster assassin", class: "pet-image" %>
   <p>Hunger: <%= @pet.hunger_level %></p>
   <p>Happiness: <%= @pet.happiness %></p>
   <p>Health: <%= @pet.health %></p>
@@ -8,8 +9,8 @@
   <p>Intelligence: <%= @pet.intelligence %></p>
 
   <div class="survival-actions">
-    <%= button_to "Scavenge", "#", class: "button survival-scavenge" %>
-    <%= button_to "Fight", "#", class: "button survival-fight" %>
-    <%= button_to "Hide", "#", class: "button survival-hide" %>
+    <%= button_to "Scavenge", scavenge_pet_path(@pet), method: :patch, class: "button survival-scavenge" %>
+    <%= button_to "Fight", fight_pet_path(@pet), method: :patch, class: "button survival-fight" %>
+    <%= button_to "Hide", hide_pet_path(@pet), method: :patch, class: "button survival-hide" %>
   </div>
 </div>
