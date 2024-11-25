@@ -1,16 +1,25 @@
 <h1>Your Pets</h1>
 
-<%= link_to "Create a New Pet", new_pet_path, class: "btn btn-primary" %>
+<%= link_to "Create a New Pet", new_pet_path, class: "btn btn-primary mb-4" %>
 
-<ul>
-  <% if @pets.any?%>
-  <% @pets.each do |pet| %>
-    <li>
-      <strong><%= pet.name %></strong> (Species: <%= pet.species %>)  
-      - Health: <%= pet.health %>, Happiness: <%= pet.happiness %>, Hunger: <%= pet.hunger_level %>
-    </li>
-      <% end %>
-    <% else%>
-      <div>You have no pet so far</div>
-  <% end %>
-</ul>
+<% if @pets.any? %>
+  <ul class="list-group">
+    <% @pets.each do |pet| %>
+      <li class="list-group-item">
+        <div>
+          <strong><%= pet.name %></strong> (Species: <%= pet.species %>)  
+          <br>
+          Health: <%= pet.health %>, Happiness: <%= pet.happiness %>, Hunger: <%= pet.hunger_level %>
+        </div>
+        <div>
+          <%= link_to "View", pet_path(pet), class: "btn btn-secondary btn-sm" %>
+          <%= link_to "Delete", pet_path(pet), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-danger btn-sm" %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <div class="alert alert-info mt-4">
+    You don't have any pets yet! Why not <%= link_to "create one", new_pet_path %>?
+  </div>
+<% end %>

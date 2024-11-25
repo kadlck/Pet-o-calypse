@@ -1,0 +1,16 @@
+<h1><%= @apocalypse.name %></h1>
+<p><strong>Description:</strong> <%= @apocalypse.description %></p>
+<p><strong>Main Threat:</strong> <%= @apocalypse.main_threat %></p>
+<p><strong>Twist:</strong> <%= @apocalypse.twist %></p>
+
+<h2>Events in this Apocalypse:</h2>
+<ul>
+  <% @apocalypse.events.each do |event| %>
+    <li>
+      <%= link_to event.name, apocalypse_event_path(@apocalypse, event) %>
+      - <%= event.description %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Back to Pets", pets_path(@pet), class: "btn btn-secondary" %>

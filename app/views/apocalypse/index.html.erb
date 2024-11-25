@@ -1,15 +1,19 @@
 <h1>Available Events for <%= @pet.name %></h1>
 
+<h2>Events in <%= @apocalypse.name %></h2>
+
 <% if @available_events.any? %>
   <ul>
-    <% @available_events.each do |event| %>
-      <li>
-        <h3><%= event.name %></h3>
-        <p><%= event.description %></p>
-        <%= button_to "Start Event", fight_pet_path(@pet), method: :patch, class: "btn btn-primary" %>
-      </li>
-    <% end %>
-  </ul>
+  <% @events.each do |event| %>
+    <li>
+      <%= link_to event.name, apocalypse_event_path(@apocalypse, event) %>
+      - <%= event.description %>
+    </li>
+  <% end %>
+</ul>
 <% else %>
   <p>No events available right now. Try hiding to recover or wait for new challenges!</p>
 <% end %>
+
+<%= link_to "Back to Pet Page", pet_path(@pet), class: "btn btn-secondary" %>
+

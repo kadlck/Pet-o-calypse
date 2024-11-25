@@ -2,6 +2,10 @@ class PetsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_pet, only: [ :show, :trigger_apocalypse ]
 
+  def index
+    @pets = current_user.pets
+  end
+
   def show
     if @pet.apocalypse_ready?
       redirect_to post_apocalypse_pet_path(@pet)
@@ -10,6 +14,7 @@ class PetsController < ApplicationController
 
   def trigger_apocalypse
     if @pet.update(apocalypse_ready: true)
+      @pet.trigger_apocalypse
       flash[:notice] = "The apocalypse is upon us!"
       redirect_to post_apocalypse_pet_path(@pet)
     else
