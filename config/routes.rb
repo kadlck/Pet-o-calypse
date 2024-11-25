@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, only: []
 
   # Define a root path based on user authentication status
   authenticated :user do
@@ -20,12 +20,8 @@ Rails.application.routes.draw do
       get :post_apocalypse
       post :trigger_apocalypse
     end
-  end
-
-  # Apocalypses resource
-  resources :apocalypses, only: [ :index, :show ] do
-    member do
-      get :event
-    end
+    resources :apocalypses, only: [ :index, :show ] do
+        get :event
+      end
   end
 end

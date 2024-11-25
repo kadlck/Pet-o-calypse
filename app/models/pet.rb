@@ -195,7 +195,7 @@ class Pet < ApplicationRecord
     self.history_unlocked ||= []
     self.abilities_level_unlocked = []
     self.mood ||= []
-    self.pet_buffs = []
+    self.pet_buffs ||= []
   end
 
   def parse_duration(duration)

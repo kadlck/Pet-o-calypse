@@ -6,7 +6,7 @@ class RandomEventJob < ApplicationJob
     Pet.find_each do |pet|
       next if pet.retired? || pet.apocalypse_ready?
 
-      # Apply a random mood or buff
+      # Apply a random mood
       mood = Pet.load_moods.sample
       pet.apply_mood(mood["name"]) if mood
     end

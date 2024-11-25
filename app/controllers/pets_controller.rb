@@ -53,18 +53,19 @@ class PetsController < ApplicationController
 
   def scavenge
     @pet = Pet.find(params[:id])
-    redirect_to apocalypses_path(@pet)
+    redirect_to pet_apocalypses_path(@pet)
   end
 
   def fight
     @pet = Pet.find(params[:id])
     random_event = @pet.apocalypse.events.sample
     if random_event.present?
-      random_event.process_event(@pet)
+      outcome_message = random_event.process_event(@pet)
     else
       flash[:notice] = "No events available to fight."
     end
-    redirect_to event_apocalypse_path(@pet)
+    flash[:notice] = outcome_message
+    redirect_to pet_apocalypse_event_path(@pet, random_event)
   end
 
   def hide

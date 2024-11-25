@@ -63,7 +63,7 @@ class Apocalypse < ApplicationRecord
         base_success_chance: event_data["base_success_chance"],
         success_modifier_by_stats: { agility: event_data["success_modifier_by_stats"]["agility"],
                                      strength: event_data["success_modifier_by_stats"]["strength"],
-                                     inteligence: event_data["success_modifier_by_stats"]["inteligence"] },
+                                     intelligence: event_data["success_modifier_by_stats"]["intelligence"] },
         reward: event_data["reward"],
         consequence: event_data["consequence"]
       )

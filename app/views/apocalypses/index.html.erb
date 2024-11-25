@@ -2,11 +2,11 @@
 
 <h2>Events in <%= @apocalypse.name %></h2>
 
-<% if @available_events.any? %>
+<% if @events.any? %>
   <ul>
   <% @events.each do |event| %>
     <li>
-      <%= link_to event.name, apocalypse_event_path(@apocalypse, event) %>
+      <%= link_to event.name, pet_apocalypse_event_path(@pet, event) %>
       - <%= event.description %>
     </li>
   <% end %>
