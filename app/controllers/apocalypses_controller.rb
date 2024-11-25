@@ -1,6 +1,6 @@
-class ApocalypseController < ApplicationController
+class ApocalypsesController < ApplicationController
   def index
-    @pet = Pet.find(params[:pet_id]) # Ensure you pass `pet_id` when navigating
+    @pet = Pet.find(params[:id])
     @apocalypse = @pet.apocalypse
     @events = @apocalypse.events
   end

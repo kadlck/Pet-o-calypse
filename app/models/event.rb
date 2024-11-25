@@ -4,6 +4,11 @@ class Event < ApplicationRecord
   validates :name, :description, :base_success_chance, :reward, :consequence, presence: true
   validates :base_success_chance, inclusion: 0..100
 
+
+  # NOT FINISHED
+  #
+  #
+  #
   def success_chance(pet)
     # Start with the base success chance
     chance = base_success_chance
@@ -34,6 +39,10 @@ class Event < ApplicationRecord
     chance.round(2) # Return a rounded percentage
   end
 
+  def process_event(pet)
+    success_chance(pet)
+    process_outcome
+  end
 
   # Process the outcome of the event
   def process_outcome(pet)
