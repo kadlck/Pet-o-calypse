@@ -1,5 +1,4 @@
-# app/jobs/remove_expired_effects_job.rb
-class RemoveExpiredEffectsJob < ApplicationJob
+class RemoveExpiredEffects < ApplicationJob
   queue_as :default
 
   def perform(pet_id)
