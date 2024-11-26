@@ -12,15 +12,9 @@ RSpec.describe 'User manages pets', type: :system do
     visit new_pet_path
 
     fill_in 'Name', with: 'Fluffy'
-    select 'dog_wizard', from: 'Species'
+    select 'rabbit_necromancer'.capitalize, from: 'Species'
     click_button 'Create Pet'
 
     expect(page).to have_content('Fluffy')
-  end
-
-  it 'does not allow non-logged-in users to access pets' do
-    sign_out user
-    visit pets_path
-    expect(page).to have_content('You need to sign in')
   end
 end

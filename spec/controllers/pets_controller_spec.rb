@@ -2,13 +2,14 @@ require 'rails_helper'
 
 RSpec.describe PetsController, type: :controller do
   let(:user) { create(:user) }
-  let(:pet) { create(:pet) }
+  let(:pet) { create(:pet, user: user) }
 
   before do
-    sign_in user # Devise helper to log in a user
+    @request.env["devise.mapping"] = Devise.mappings[:user]
+    sign_in user
   end
 
-  describe 'GET #index' do
+  describe 'GET index' do
     it 'returns a successful response' do
       get :index
       expect(response).to be_successful

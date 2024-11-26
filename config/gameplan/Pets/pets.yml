@@ -32,7 +32,6 @@ pets:
       agility: 1
       strength: 2
       intelligence: 3
-    dog_wizard:
     name: "Dog Wizard"
     levels:
       1: "Yelping Pup"
