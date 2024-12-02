@@ -1,19 +1,22 @@
-<h1>Your Pets</h1>
-
 <%= link_to "Create a New Pet", new_pet_path, class: "btn btn-primary mb-4" %>
 
 <% if @pets.any? %>
   <ul class="list-group">
     <% @pets.each do |pet| %>
-      <li class="list-group-item">
-        <div>
-          <strong><%= pet.name %></strong> (Species: <%= pet.species %>)  
+      <li class="d-flex-align-items-center">
+        <% if pet.apocalypse_ready? %>
+          <%= image_tag "#{pet.species}.webp", alt: "#{pet.species} post-apocalyptic image", class: "rounded-circle" %>
+        <% else %>
+          <%= image_tag "#{pet.species.split("_")[0]}_cute.webp", alt: "#{pet.species.split("_")[0]} cute image", class: "rounded-circle" %>
+        <% end %>
+
+        <div class="flex-grow-1">
+          <strong><%= pet.name %></strong>  
           <br>
           Health: <%= pet.health %>, Happiness: <%= pet.happiness %>, Hunger: <%= pet.hunger_level %>
-        </div>
-        <div>
+
           <%= link_to "View", pet_path(pet), class: "btn btn-secondary btn-sm" %>
-          <%= link_to "Delete", pet_path(pet), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-danger btn-sm" %>
+          <%= button_to "Delete", pet_path(pet), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-danger btn-sm" %>
         </div>
       </li>
     <% end %>

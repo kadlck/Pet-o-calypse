@@ -3,6 +3,7 @@ class Pet < ApplicationRecord
   has_many :pet_buffs, dependent: :destroy
   has_many :pet_moods, dependent: :destroy
   has_one :apocalypse, dependent: :destroy
+  has_many :events, through: :apocalypse, dependent: :destroy
 
 
   # Validations

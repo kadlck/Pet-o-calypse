@@ -1,9 +1,14 @@
 class PetsController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_pet, only: [ :show, :trigger_apocalypse ]
+  before_action :set_pet, only: [ :show, :trigger_apocalypse, :destroy ]
 
   def index
     @pets = current_user.pets
+  end
+
+  def destroy
+    @pet.destroy
+    redirect_to root_path
   end
 
   def show
