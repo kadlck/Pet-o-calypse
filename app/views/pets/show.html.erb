@@ -1,6 +1,6 @@
 <div class="happy-container">
   <h1>Meet <%= @pet.name %>!</h1>
-  <%= image_tag "hamster_cute.webp", alt: "Cute hamster", class: "pet-image" %>
+  <%= image_tag "#{@pet.species.split("_")[0]}_cute.webp", alt: "Cute hamster", class: "pet-image" %>
   <p>Hunger: <%= @pet.hunger_level %></p>
   <p>Happiness: <%= @pet.happiness %></p>
   <p>Health: <%= @pet.health %></p>

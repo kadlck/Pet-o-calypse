@@ -1,27 +1,50 @@
-<%= form_with(model: @pet, local: true) do |form| %>
-  <% if @pet.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@pet.errors.count, "error") %> prohibited this pet from being saved:</h2>
+<h1>Create Your Pet</h1>
 
-      <ul>
-        <% @pet.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
+<%= form_with model: @pet, local: true do |form| %>
   <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name %>
   </div>
 
   <div class="field">
-    <%= form.label :species %>
-    <%= form.select :species, options_for_select(@available_pets.map { |pet| [pet.capitalize, pet] }) %>
+    <%= form.label :species %><br>
+
+    <div id="species-options" class="species-grid">
+      <% @available_pets.each do |pet| %>
+        <div class="species-option">
+          <label>
+            <%= form.radio_button :species, pet %>
+            <img src="<%= asset_path("#{pet.split("_")[0]}_cute.webp") %>" alt="<%= pet.split("_")[0].capitalize %>" class="species-image">
+            <div class="species-name"><%= pet.split("_")[0].capitalize %></div>
+          </label>
+        </div>
+      <% end %>
+    </div>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Create Pet", class: "btn btn-primary" %>
   </div>
 <% end %>
+
+<style>
+  .species-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .species-option {
+    text-align: center;
+  }
+  .species-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .species-option input[type="radio"]:checked + img {
+    border-color: #007bff;
+  }
+</style>

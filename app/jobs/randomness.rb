@@ -1,4 +1,3 @@
-# app/jobs/random_event_job.rb
 class RandomEventJob < ApplicationJob
   queue_as :default
 

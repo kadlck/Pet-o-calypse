@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users, only: []
+  devise_for :users
 
   # Define a root path based on user authentication status
   authenticated :user do
