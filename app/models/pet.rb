@@ -12,6 +12,7 @@ class Pet < ApplicationRecord
 
   # Set default attributes when creating a pet
   after_initialize :set_defaults, if: :new_record?
+  after_update :check_health
 
   # Load all pet data from YAML
   def self.load_all_pets
@@ -139,25 +140,25 @@ class Pet < ApplicationRecord
 
   def update_stats_from_event_failure
     # Example: Slight penalty on failure
-    self.happiness -= 1
+    self.happiness -= 10
     self.health -= 5
     save
   end
 
   def check_level_up
-    while experience >= experience_to_next_level
+    while experience >= 100
       level_up
     end
   end
 
-  def experience_to_next_level
-    100 * level # Example: 100 XP per level
+  def level_up
+    pet_data = Pet.load_all_pets[self.species]
+    current_level_index = pet_data["levels"].index { |level| level == self.level }
+    if current_level_index && current_level_index + 1 < pet_data["levels"].size
+      self.level = pet_data["levels"][current_level_index + 1]
+    end
   end
 
-  def level_up
-    self.experience -= experience_to_next_level
-    self.level += 1
-  end
 
   def trigger_apocalypse
     return apocalypse if apocalypse.present?
@@ -206,5 +207,16 @@ class Pet < ApplicationRecord
     else
       duration.to_i # Convert to integer for time-based durations
     end
+  end
+
+  def check_health
+    if health <= 0 || hunger_level <= 0 || happiness <= 0
+      end_game
+      redirect_to root_path
+    end
+  end
+
+  def end_game
+    self.retired = true
   end
 end

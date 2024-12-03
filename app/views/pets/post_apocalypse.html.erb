@@ -1,6 +1,9 @@
 <div class="apocalypse-container">
   <h1><%= @pet.name %>: Survivor Mode</h1>
   <%= image_tag "#{@pet.species}.webp", alt: "#{@pet.species}", class: "pet-image" %>
+  <p>Level: <%= @pet.level %></p>
+  <p>Experience: <%= @pet.experience %>
+  <p>Class: <%= @pet.class %> </p>
   <p>Hunger: <%= @pet.hunger_level %></p>
   <p>Happiness: <%= @pet.happiness %></p>
   <p>Health: <%= @pet.health %></p>

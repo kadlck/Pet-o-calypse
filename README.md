@@ -15,11 +15,13 @@ Just a silly little idea I'm working on. It has some skeleton and idea of what I
 3. **Apocalypse & Events**  
    - Make the apocalypse and event systems fully functional (it currently has some bits and pieces).
 
-4. **Finish Pet Picture Generation**  
-   - Generate the final pet images and use them instead of the hamster
+4. **Make level-up work**
 
-5. **Delete Pet Functionality**  
-   - Ensure users can delete their pets from their profiles.
+5. **Pictures of apocalypse**
+
+5. **Delete passed events**
+
+5. **End game logic**
 
 6. **Visuals**  
    - Add more styling and visual elements to the front-end.
